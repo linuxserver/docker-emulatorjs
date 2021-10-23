@@ -1,0 +1,16 @@
+#!/usr/bin/with-contenv bash
+
+# permissions
+chown abc:abc \
+    /data
+
+# ipfs config
+if [ ! -d "/data/.ipfs" ]; then
+    HOME=/data ipfs init
+    chown -R abc:abc /data/.ipfs
+fi
+
+# link user data to frontend
+if [ ! -L '/emulatorjs/frontend/user' ]; then
+    ln -s /data /emulatorjs/frontend/user
+fi

@@ -1,0 +1,50 @@
+---
+
+# project information
+project_name: emulatorjs
+project_url: "https://github.com/linuxserver/emulatorjs"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png"
+project_blurb: |
+  [{{ project_name|capitalize }}]({{ project_url }}) - A fork of NeptunJS used to run multiple web based emulators for retro games. This projects adds a management layer for adding roms and artwork to make it self hosted.
+project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+
+# supported architectures
+available_architectures:
+  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
+  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
+
+# container parameters
+param_container_name: "{{ project_name }}"
+param_usage_include_vols: true
+param_volumes:
+  - { vol_path: "/data", vol_host_path: "/path/to/data", desc: "Path to store roms/artwork" }
+param_usage_include_ports: true
+param_ports:
+  - { external_port: "3000", internal_port: "3000", port_desc: "Rom/artwork management interface, used to generate/manage config files and download artwork" }
+  - { external_port: "80", internal_port: "80", port_desc: "Emulation frontend containing static web files used to browse and launch games" }
+param_usage_include_env: true
+param_env_vars:
+  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
+# optional variables
+opt_param_usage_include_ports: true
+opt_param_ports:
+  - { external_port: "4001", internal_port: "4001", port_desc: "IPFS peering port, if you want to participate in the P2P network to distribute frontend artwork please forward this to the Internet" }
+
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  The Backend can be accessed at:
+
+  * http://yourhost:3000/
+  
+  The first thing you will need to do is click to download the default art/configs from this interface, this will setup a skeleton directory in your `/data` mount. From there add roms to the respective `roms` directories and follow the on screen instructions to add them to your web frontend running on port 80.
+
+  The frontend application has been initially optimized around being used with a standard gamepad (more specifically for modern Xbox consoles that have chromium based Edge browsers). The navigation revolves around the up/down/left/right keys to browse the menus and launch games.
+  While mobile browsers will function, the frontend has not yet been optimized to function with them.
+  
+  **It is important to note that the current emulator used for this frontend is obfuscated code, efforts are being made to [reverese engineer it](https://github.com/ethanaobrien/emulatorjs/) but you should know it can potentially reach out to third party services if you manually enable features like netplay (this should never happen in a stock setup). The point of this message is that on top of the de-obfuscation effort there is also effort to stop using binary blobs and shift to built from source libretro emscripten blobs, for now this web based emulation stack is the best for useability and compatibility.**
+
+# changelog
+changelogs:
+  - { date: "23.10.21:", desc: "Initial release." }
