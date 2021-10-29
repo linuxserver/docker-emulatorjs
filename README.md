@@ -70,6 +70,8 @@ While mobile browsers will function, the frontend has not yet been optimized to 
 
 **It is important to note that the current emulator used for this frontend is obfuscated code, efforts are being made to [reverese engineer it](https://github.com/ethanaobrien/emulatorjs/) but you should know it can potentially reach out to third party services if you manually enable features like netplay (this should never happen in a stock setup). The point of this message is that on top of the de-obfuscation effort there is also effort to stop using binary blobs and shift to built from source libretro emscripten blobs, for now this web based emulation stack is the best for useability and compatibility.**
 
+**For Xbox users please click the select button a couple times after launching a game to ensure the B button does not trigger a "back" action in the browser. (official name "view button" it is the two small squares) Exiting the controller mode and back to browser controls can be triggered by holding the start button for 3 seconds. (official name "menu button" the three lines) You will be unable to use features like save states and modify contorller layouts currently as I have not determined a methodology of re-entering controller mode once you exit it. All normal game saves will function given you exit the game play screen cleanly using the B button for back this includes multi disc games for psx. Your game saves are stored in browser storage by hostname so if you make any changes to your local hosted setup (port or IP) the saves will not follow with it.**
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
