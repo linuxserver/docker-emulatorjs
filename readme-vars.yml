@@ -30,6 +30,9 @@ param_env_vars:
 opt_param_usage_include_ports: true
 opt_param_ports:
   - { external_port: "4001", internal_port: "4001", port_desc: "IPFS peering port, if you want to participate in the P2P network to distribute frontend artwork please forward this to the Internet" }
+opt_param_usage_include_env: true
+opt_param_env_vars:
+  - { env_var: "SUBFOLDER", env_value: "/", desc: "Specify a subfolder for reverse proxies IE '/FOLDER/'"}
 
 # application setup block
 app_setup_block_enabled: true

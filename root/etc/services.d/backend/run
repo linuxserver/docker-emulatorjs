@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bash
 
 cd /emulatorjs || exit
-exec \
+HOME=/data exec \
     s6-setuidgid abc node index.js

@@ -89,6 +89,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
+      - SUBFOLDER=/ #optional
     volumes:
       - /path/to/data:/data
     ports:
@@ -106,6 +107,7 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
+  -e SUBFOLDER=/ `#optional` \
   -p 3000:3000 \
   -p 80:80 \
   -p 4001:4001 `#optional` \
@@ -126,6 +128,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
+| `-e SUBFOLDER=/` | Specify a subfolder for reverse proxies IE '/FOLDER/' |
 | `-v /data` | Path to store roms/artwork |
 
 ## Environment variables from files (Docker secrets)
