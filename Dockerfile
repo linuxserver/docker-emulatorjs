@@ -66,7 +66,7 @@ RUN \
 
 RUN \
   echo "**** grab libretro blobs ****" && \
-  retroarchemus="fceumm snes9x mednafen_vb gearboy vba_next genesis_plus_gx handy mame2003_plus mednafen_ngp mednafen_wswan o2em prboom vecx bluemsx gambatte mgba tyrquake" && \
+  retroarchemus="fceumm snes9x mednafen_vb gearboy vba_next genesis_plus_gx handy mame2003_plus mednafen_ngp mednafen_wswan o2em prboom vecx bluemsx gambatte tyrquake" && \
   mkdir /retrotmp && \
   cd /retrotmp && \
   wget https://buildbot.libretro.com/nightly/emscripten/RetroArch.7z && \
