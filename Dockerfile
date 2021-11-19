@@ -51,7 +51,7 @@ RUN \
   fi && \
   curl -o \
     /tmp/emulatorjs.tar.gz -L \
-    "https://github.com/linuxserver/emulatorjs/archive/master.tar.gz" && \
+    "https://github.com/linuxserver/emulatorjs/archive/${EMULATORJS_RELEASE}.tar.gz" && \
   tar xf \
     /tmp/emulatorjs.tar.gz -C \
     /emulatorjs/ --strip-components=1
