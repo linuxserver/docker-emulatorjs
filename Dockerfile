@@ -31,6 +31,7 @@ RUN \
 FROM ghcr.io/linuxserver/baseimage-alpine:3.14 as nodebuilder
 
 ARG EMULATORJS_RELEASE
+ARG RETRO_VERSION=1.9.10
 
 RUN \
   echo "**** install build packages ****" && \
@@ -50,7 +51,7 @@ RUN \
   fi && \
   curl -o \
     /tmp/emulatorjs.tar.gz -L \
-    "https://github.com/linuxserver/emulatorjs/archive/${EMULATORJS_RELEASE}.tar.gz" && \
+    "https://github.com/linuxserver/emulatorjs/archive/master.tar.gz" && \
   tar xf \
     /tmp/emulatorjs.tar.gz -C \
     /emulatorjs/ --strip-components=1
@@ -69,7 +70,7 @@ RUN \
   retroarchemus="fceumm snes9x mednafen_vb gearboy vba_next genesis_plus_gx handy mame2003_plus mednafen_ngp mednafen_wswan o2em prboom vecx bluemsx gambatte tyrquake" && \
   mkdir /retrotmp && \
   cd /retrotmp && \
-  wget https://buildbot.libretro.com/nightly/emscripten/RetroArch.7z && \
+  wget https://buildbot.libretro.com/stable/${RETRO_VERSION}/emscripten/RetroArch.7z && \
   7z x RetroArch.7z && \
   sed -i 's/wasmBinaryFile="/wasmBinaryFile="data\//g' retroarch/*.js && \
   for emu in $retroarchemus; do mv retroarch/${emu}_libretro.* /emulatorjs/frontend/data/; done && \

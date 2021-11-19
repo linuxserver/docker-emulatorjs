@@ -54,5 +54,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "19.11.21:", desc: "Pin retroarch version." }
   - { date: "14.11.21:", desc: "Update default cores to ingest." }
   - { date: "23.10.21:", desc: "Initial release." }
