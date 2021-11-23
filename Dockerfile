@@ -75,7 +75,7 @@ RUN \
   sed -i 's/wasmBinaryFile="/wasmBinaryFile="data\//g' retroarch/*.js && \
   for emu in $retroarchemus; do mv retroarch/${emu}_libretro.* /emulatorjs/frontend/data/; done && \
   cd retroarch/assets/frontend/bundle/ && \
-  zip -r frontend.zip  assets/xmb/monochrome assets/ozone shaders filters info autoconfig overlay assets/menu_widgets && \
+  zip -r frontend.zip  assets/xmb/monochrome assets/ozone shaders filters info autoconfig assets/menu_widgets && \
   mv frontend.zip /emulatorjs/frontend/data/ && \
   curl -o \
     /tmp/custom-cores.tar.gz -L \
