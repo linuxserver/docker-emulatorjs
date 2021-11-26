@@ -242,6 +242,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **26.11.21:** - Configure IPFS in a lower power mode, use homebuilt blobs for emu cores.
 * **19.11.21:** - Pin retroarch version.
 * **14.11.21:** - Update default cores to ingest.
 * **23.10.21:** - Initial release.

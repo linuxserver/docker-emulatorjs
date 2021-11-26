@@ -6,7 +6,7 @@ chown abc:abc \
 
 # ipfs config
 if [ ! -d "/data/.ipfs" ]; then
-    HOME=/data ipfs init
+    HOME=/data ipfs init --profile lowpower
     chown -R abc:abc /data/.ipfs
 fi
 

@@ -63,20 +63,13 @@ RUN \
     "https://github.com/ethanaobrien/emulatorjs/archive/main.tar.gz" && \
   tar xf \
     /tmp/emulatorjs-blob.tar.gz -C \
-    /emulatorjs/frontend/ --strip-components=1
+    /emulatorjs/frontend/ --strip-components=1 && \
+  /bin/bash -c 'rm -f \
+    /emulatorjs/frontend/data/{snes*,sega*,vb*,ws*,a2600*,a7800*,arcade*,bluemsx*,gb*,jaguar*,lynx*,mame*,msx*,nds*,nes*,ngp*,pce*,saturn*,psx*}'
+
 
 RUN \
   echo "**** grab libretro blobs ****" && \
-  retroarchemus="fceumm snes9x mednafen_vb gearboy vba_next genesis_plus_gx handy mame2003_plus mednafen_ngp mednafen_wswan o2em prboom vecx bluemsx gambatte tyrquake" && \
-  mkdir /retrotmp && \
-  cd /retrotmp && \
-  wget https://buildbot.libretro.com/stable/${RETRO_VERSION}/emscripten/RetroArch.7z && \
-  7z x RetroArch.7z && \
-  sed -i 's/wasmBinaryFile="/wasmBinaryFile="data\//g' retroarch/*.js && \
-  for emu in $retroarchemus; do mv retroarch/${emu}_libretro.* /emulatorjs/frontend/data/; done && \
-  cd retroarch/assets/frontend/bundle/ && \
-  zip -r frontend.zip  assets/xmb/monochrome assets/ozone shaders filters info autoconfig assets/menu_widgets && \
-  mv frontend.zip /emulatorjs/frontend/data/ && \
   curl -o \
     /tmp/custom-cores.tar.gz -L \
     "https://github.com/linuxserver/libretro-cores/archive/master.tar.gz" && \
