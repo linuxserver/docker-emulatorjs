@@ -14,3 +14,6 @@ fi
 if [ ! -L '/emulatorjs/frontend/user' ]; then
     ln -s /data /emulatorjs/frontend/user
 fi
+
+# nginx mime types
+cp /defaults/mime.types /etc/nginx/mime.types
