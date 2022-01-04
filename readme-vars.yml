@@ -54,7 +54,8 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "29.11.21:", desc: "Add wasm mime type to NGINX" }
+  - { date: "04.01.22:", desc: "Add headers needed for Threaded emulators." }
+  - { date: "29.11.21:", desc: "Add wasm mime type to NGINX." }
   - { date: "26.11.21:", desc: "Configure IPFS in a lower power mode, use homebuilt blobs for emu cores." }
   - { date: "19.11.21:", desc: "Pin retroarch version." }
   - { date: "14.11.21:", desc: "Update default cores to ingest." }

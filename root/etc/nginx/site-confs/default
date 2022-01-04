@@ -3,6 +3,8 @@ server {
   root /emulatorjs/frontend;
   index index.html;
   client_max_body_size 0;
+  add_header Cross-Origin-Opener-Policy same-origin;
+  add_header Cross-Origin-Embedder-Policy require-corp;
   location / {
     try_files $uri $uri/ =404;
   }
