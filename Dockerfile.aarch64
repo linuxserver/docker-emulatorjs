@@ -65,8 +65,8 @@ RUN \
     /tmp/emulatorjs-blob.tar.gz -C \
     /emulatorjs/frontend/ --strip-components=1 && \
   /bin/bash -c 'rm -f \
-    /emulatorjs/frontend/data/{snes*,sega*,vb*,ws*,a2600*,a7800*,arcade*,bluemsx*,gb*,jaguar*,lynx*,mame*,msx*,nds*,nes*,ngp*,pce*,saturn*,psx*}'
-
+    /emulatorjs/frontend/data/{snes*,sega*,vb*,ws*,a2600*,a7800*,arcade*,bluemsx*,gb*,jaguar*,lynx*,mame*,msx*,nds*,nes*,ngp*,pce*,saturn*,psx*}' && \
+  rm -Rf /emulatorjs/frontend/docs
 
 RUN \
   echo "**** grab libretro blobs ****" && \
