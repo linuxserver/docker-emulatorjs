@@ -94,6 +94,7 @@ services:
       - TZ=Europe/London
       - SUBFOLDER=/ #optional
     volumes:
+      - /path/to/config:/config
       - /path/to/data:/data
     ports:
       - 3000:3000
@@ -114,6 +115,7 @@ docker run -d \
   -p 3000:3000 \
   -p 80:80 \
   -p 4001:4001 `#optional` \
+  -v /path/to/config:/config \
   -v /path/to/data:/data \
   --restart unless-stopped \
   lscr.io/linuxserver/emulatorjs
@@ -132,6 +134,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
 | `-e SUBFOLDER=/` | Specify a subfolder for reverse proxies IE '/FOLDER/' |
+| `-v /config` | Path to store user profiles |
 | `-v /data` | Path to store roms/artwork |
 
 ## Environment variables from files (Docker secrets)
@@ -243,6 +246,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **14.01.22:** - Add profile paths and rebase to Alpine 3.15.
 * **04.01.22:** - Add headers needed for Threaded emulators.
 * **29.11.21:** - Add wasm mime type to NGINX.
 * **26.11.21:** - Configure IPFS in a lower power mode, use homebuilt blobs for emu cores.

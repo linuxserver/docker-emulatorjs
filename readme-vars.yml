@@ -18,6 +18,7 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
+  - { vol_path: "/config", vol_host_path: "/path/to/config", desc: "Path to store user profiles" }
   - { vol_path: "/data", vol_host_path: "/path/to/data", desc: "Path to store roms/artwork" }
 param_usage_include_ports: true
 param_ports:
@@ -54,6 +55,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "14.01.22:", desc: "Add profile paths and rebase to Alpine 3.15." }
   - { date: "04.01.22:", desc: "Add headers needed for Threaded emulators." }
   - { date: "29.11.21:", desc: "Add wasm mime type to NGINX." }
   - { date: "26.11.21:", desc: "Configure IPFS in a lower power mode, use homebuilt blobs for emu cores." }

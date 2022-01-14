@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.14 as binbuilder
+FROM ghcr.io/linuxserver/baseimage-alpine:3.15 as binbuilder
 
 RUN \
   echo "**** install build packages ****" && \
@@ -28,7 +28,7 @@ RUN \
   chmod +x /tmp/binmerge && \
   mv /tmp/binmerge /build-out/usr/local/bin
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.14 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-alpine:3.15 as nodebuilder
 
 ARG EMULATORJS_RELEASE
 ARG RETRO_VERSION=1.9.10
@@ -84,7 +84,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-alpine:3.14
+FROM ghcr.io/linuxserver/baseimage-alpine:3.15
 
 # set version label
 ARG BUILD_DATE

@@ -15,5 +15,20 @@ if [ ! -L '/emulatorjs/frontend/user' ]; then
     ln -s /data /emulatorjs/frontend/user
 fi
 
+# Default profile directory
+if [ ! -d '/config/profile/default' ]; then
+  mkdir -p /config/profile/default
+  echo "input_menu_toggle_gamepad_combo = 3
+system_directory = /home/web_user/retroarch/system/" > /config/profile/default/retroarch.cfg
+  chown -R abc:abc /config/profile
+fi
+if [ ! -f '/config/profile/profile.json' ]; then
+  echo '{}' > /config/profile/profile.json
+  chown -R abc:abc /config/profile
+fi
+
 # nginx mime types
 cp /defaults/mime.types /etc/nginx/mime.types
+
+# nginx body cache
+chown -R abc:root /var/lib/nginx

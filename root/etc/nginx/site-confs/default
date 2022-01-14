@@ -11,4 +11,7 @@ server {
   location /.env {
     return 404;
   }
+  location /profile {
+    proxy_pass http://localhost:3001;
+  }
 }
