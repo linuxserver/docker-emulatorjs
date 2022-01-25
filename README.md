@@ -75,6 +75,42 @@ Mobile browsers will function, just keep in mind compatibility will be reduced e
 
 **We know about most of the oddities like crackling sound for some emulators, rendering issues, and games unreliably auto launching to fullscreen. In general full CD games on the Xbox web browser do not seem to work due to their size if you have a chd/pbp less than 450 megs it will run. Edge on Xbox has some kind of undocumented ram limitation of about a gigabyte. Until all emulators are transitioned to libretro cores the oddities of using self hosted EmulatorJS will not be something that can or should be solved using hacky workarounds interacting with obfuscated code. Just keep in mind these are full blown machine emulators running in Javascript in a browser, do not expect bare metal performance.**
 
+Mounting in existing rom directories can be achieved by pointing to the default folder structure, IE lets say you would like to mount your NES library:
+
+`-v /path/to/nes/roms:/data/nes/roms`
+
+The folder names are:
+* 3do
+* arcade
+* atari2600
+* atari7800
+* colecovision
+* doom
+* gb
+* gba
+* gbc
+* jaguar
+* lynx
+* msx
+* n64
+* nds
+* nes
+* ngp
+* odyssey2
+* pce
+* psx
+* sega32x
+* segaCD
+* segaGG
+* segaMD
+* segaMS
+* segaSaturn
+* segaSG
+* snes
+* vb
+* vectrex
+* ws
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
@@ -246,6 +282,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.01.22:** - Allow users to mount in existing rom directories.
 * **14.01.22:** - Add profile paths and rebase to Alpine 3.15.
 * **04.01.22:** - Add headers needed for Threaded emulators.
 * **29.11.21:** - Add wasm mime type to NGINX.
