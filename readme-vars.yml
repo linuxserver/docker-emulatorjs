@@ -91,6 +91,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.02.22:", desc: "Update ingestion point for emulatorjs bins." }
   - { date: "25.01.22:", desc: "Allow users to mount in existing rom directories." }
   - { date: "14.01.22:", desc: "Add profile paths and rebase to Alpine 3.15." }
   - { date: "04.01.22:", desc: "Add headers needed for Threaded emulators." }
