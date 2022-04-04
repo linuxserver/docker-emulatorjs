@@ -91,6 +91,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "04.04.22:", desc: "Ingest pre-built chdman bins during build time." }
   - { date: "23.02.22:", desc: "Update ingestion point for emulatorjs bins." }
   - { date: "25.01.22:", desc: "Allow users to mount in existing rom directories." }
   - { date: "14.01.22:", desc: "Add profile paths and rebase to Alpine 3.15." }

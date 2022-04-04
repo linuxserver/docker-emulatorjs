@@ -91,16 +91,22 @@ LABEL maintainer="thelamer"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
+    curl \
     file \
+    flac \
     nginx \
     nodejs \
     p7zip \
-    python3 && \
+    python3 \
+    sdl2 && \
   mkdir /data && \
-  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
-    mame-tools && \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/v3.14/community \
     go-ipfs && \
+  echo "**** grab pre-built chdman ****" && \
+  curl -L \
+    "https://ipfs.infura.io/ipfs/QmUqmGm5KUeeWSS9FG9DMuSQPpvU7RqffFR9n3rJXDQ8AQ" \
+    -o /usr/local/bin/chdman && \
+  chmod +x /usr/local/bin/chdman && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*

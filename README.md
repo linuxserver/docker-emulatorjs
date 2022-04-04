@@ -282,6 +282,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **04.04.22:** - Ingest pre-built chdman bins during build time.
 * **23.02.22:** - Update ingestion point for emulatorjs bins.
 * **25.01.22:** - Allow users to mount in existing rom directories.
 * **14.01.22:** - Add profile paths and rebase to Alpine 3.15.
