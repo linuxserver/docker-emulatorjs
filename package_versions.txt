@@ -13,7 +13,7 @@ expat-2.4.7-r0
 file-5.41-r0
 flac-1.3.4-r0
 gdbm-1.22-r0
-go-ipfs-0.10.0-r1
+go-ipfs-0.10.0-r2
 libacl-2.2.53-r0
 libattr-2.5.1-r1
 libbz2-1.0.8-r1
@@ -52,6 +52,6 @@ sqlite-libs-3.36.0-r0
 ssl_client-1.34.1-r5
 tzdata-2022a-r0
 utmps-0.1.0.3-r0
-xz-5.2.5-r0
-xz-libs-5.2.5-r0
+xz-5.2.5-r1
+xz-libs-5.2.5-r1
 zlib-1.2.12-r0
