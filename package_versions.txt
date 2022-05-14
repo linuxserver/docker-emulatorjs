@@ -13,7 +13,7 @@ expat-2.4.7-r0
 file-5.41-r0
 flac-1.3.4-r0
 gdbm-1.22-r0
-go-ipfs-0.10.0-r2
+go-ipfs-0.10.0-r3
 libacl-2.2.53-r0
 libattr-2.5.1-r1
 libbz2-1.0.8-r1
