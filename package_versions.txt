@@ -37,7 +37,7 @@ ncurses-libs-6.3_p20211120-r1
 ncurses-terminfo-base-6.3_p20211120-r1
 nghttp2-libs-1.46.0-r0
 nginx-1.20.2-r1
-nodejs-16.16.0-r0
+nodejs-16.17.1-r0
 p7zip-16.02-r4
 pcre-8.45-r1
 procps-3.3.17-r0
