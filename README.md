@@ -282,6 +282,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.11.22:** - Update IPFS links for chdman.
 * **04.04.22:** - Ingest pre-built chdman bins during build time.
 * **23.02.22:** - Update ingestion point for emulatorjs bins.
 * **25.01.22:** - Allow users to mount in existing rom directories.

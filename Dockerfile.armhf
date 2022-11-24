@@ -104,7 +104,7 @@ RUN \
   mkdir /data && \
   echo "**** grab pre-built chdman ****" && \
   curl -L \
-    "https://ipfs.infura.io/ipfs/QmPYV2qJi3QrgqS9gPbX4XQ7DoNj3aZAz9sHy2Bo3Xeqbj" \
+    "https://infura-ipfs.io/ipfs/QmPYV2qJi3QrgqS9gPbX4XQ7DoNj3aZAz9sHy2Bo3Xeqbj" \
     -o /usr/local/bin/chdman && \
   chmod +x /usr/local/bin/chdman && \
   echo "**** cleanup ****" && \
