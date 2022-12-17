@@ -41,7 +41,7 @@ nodejs-16.17.1-r0
 p7zip-16.02-r4
 pcre-8.45-r1
 procps-3.3.17-r0
-python3-3.9.15-r0
+python3-3.9.16-r0
 readline-8.1.1-r0
 s6-ipcserver-2.11.0.0-r0
 scanelf-1.3.3-r0
