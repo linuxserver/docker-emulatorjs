@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Application Setup
 
@@ -127,7 +127,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
       - SUBFOLDER=/ #optional
     volumes:
       - /path/to/config:/config
@@ -146,7 +146,7 @@ docker run -d \
   --name=emulatorjs \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -e SUBFOLDER=/ `#optional` \
   -p 3000:3000 \
   -p 80:80 \
@@ -155,6 +155,7 @@ docker run -d \
   -v /path/to/data:/data \
   --restart unless-stopped \
   lscr.io/linuxserver/emulatorjs:latest
+
 ```
 
 ## Parameters
@@ -168,7 +169,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 4001` | IPFS peering port, if you want to participate in the P2P network to distribute frontend artwork please forward this to the Internet |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e SUBFOLDER=/` | Specify a subfolder for reverse proxies IE '/FOLDER/' |
 | `-v /config` | Path to store user profiles |
 | `-v /data` | Path to store roms/artwork |
