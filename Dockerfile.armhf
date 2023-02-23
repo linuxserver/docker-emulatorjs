@@ -29,6 +29,18 @@ RUN \
   chmod +x /tmp/binmerge && \
   mv /tmp/binmerge /build-out/usr/local/bin
 
+RUN \
+  echo "**** build fs-repo-migrations ****" && \
+  mkdir /build-out/usr/bin && \
+  git clone https://github.com/ipfs/fs-repo-migrations.git && \
+  cd fs-repo-migrations && \
+  for BUILD in fs-repo-migrations fs-repo-9-to-10 fs-repo-10-to-11 fs-repo-11-to-12; do \
+    cd ${BUILD} && \
+    go build && \
+    mv fs-repo-* /build-out/usr/bin/ && \
+    cd .. ; \
+  done
+
 FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.17 as nodebuilder
 
 ARG EMULATORJS_RELEASE
@@ -94,7 +106,7 @@ RUN \
   apk add --no-cache \
     file \
     flac \
-    go-ipfs \
+    kubo \
     nginx \
     nodejs \
     p7zip \
