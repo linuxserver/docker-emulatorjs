@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+if pgrep -f "[n]ginx:" > /dev/null; then
+    pkill -ef [n]ginx:
+fi
+
+exec \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 80" \
+        /usr/sbin/nginx -c /etc/nginx/nginx.conf

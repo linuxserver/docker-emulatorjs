@@ -1,4 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-HOME=/data exec \
-    s6-setuidgid abc ipfs daemon

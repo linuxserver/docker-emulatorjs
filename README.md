@@ -283,6 +283,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.02.23:** - Rebase to Alpine 3.17, migrate to s6v3.
 * **24.11.22:** - Update IPFS links for chdman.
 * **04.04.22:** - Ingest pre-built chdman bins during build time.
 * **23.02.22:** - Update ingestion point for emulatorjs bins.

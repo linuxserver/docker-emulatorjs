@@ -1,9 +1,10 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.15 as binbuilder
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.17 as binbuilder
 
 RUN \
   echo "**** install build packages ****" && \
   apk add \
-    curl \
     git \
     go
 
@@ -28,7 +29,7 @@ RUN \
   chmod +x /tmp/binmerge && \
   mv /tmp/binmerge /build-out/usr/local/bin
 
-FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.15 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.17 as nodebuilder
 
 ARG EMULATORJS_RELEASE
 ARG RETRO_VERSION=1.9.10
@@ -36,7 +37,6 @@ ARG RETRO_VERSION=1.9.10
 RUN \
   echo "**** install build packages ****" && \
   apk add \
-    curl \
     nodejs \
     npm \
     p7zip \
@@ -81,7 +81,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.15
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.17
 
 # set version label
 ARG BUILD_DATE
@@ -92,7 +92,6 @@ LABEL maintainer="thelamer"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
-    curl \
     file \
     flac \
     go-ipfs \
