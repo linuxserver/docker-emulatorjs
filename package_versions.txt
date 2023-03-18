@@ -3,8 +3,8 @@ NAME                                                       VERSION              
 @ampproject/remapping                                      2.2.0                               npm        
 @babel/code-frame                                          7.18.6                              npm        
 @babel/compat-data                                         7.21.0                              npm        
-@babel/core                                                7.21.0                              npm        
-@babel/generator                                           7.21.1                              npm        
+@babel/core                                                7.21.3                              npm        
+@babel/generator                                           7.21.3                              npm        
 @babel/helper-compilation-targets                          7.20.7                              npm        
 @babel/helper-environment-visitor                          7.18.9                              npm        
 @babel/helper-function-name                                7.21.0                              npm        
@@ -18,10 +18,10 @@ NAME                                                       VERSION              
 @babel/helper-validator-option                             7.21.0                              npm        
 @babel/helpers                                             7.21.0                              npm        
 @babel/highlight                                           7.18.6                              npm        
-@babel/parser                                              7.21.2                              npm        
+@babel/parser                                              7.21.3                              npm        
 @babel/template                                            7.20.7                              npm        
-@babel/traverse                                            7.21.2                              npm        
-@babel/types                                               7.21.2                              npm        
+@babel/traverse                                            7.21.3                              npm        
+@babel/types                                               7.21.3                              npm        
 @cloudcmd/dropbox                                          4.0.6                               npm        
 @cloudcmd/fileop                                           5.0.4                               npm        
 @cloudcmd/formatify                                        1.0.4                               npm        
@@ -72,7 +72,7 @@ NAME                                                       VERSION              
 @putout/engine-processor                                   6.4.2                               npm        
 @putout/engine-runner                                      12.6.0                              npm        
 @putout/engine-runner                                      15.0.1                              npm        
-@putout/eslint                                             1.8.0                               npm        
+@putout/eslint                                             2.0.0                               npm        
 @putout/formatter-codeframe                                3.0.1                               npm        
 @putout/formatter-codeframe                                4.0.1                               npm        
 @putout/formatter-dump                                     3.0.2                               npm        
@@ -126,13 +126,10 @@ NAME                                                       VERSION              
 @putout/plugin-convert-esm-to-commonjs                     4.0.0                               npm        
 @putout/plugin-convert-esm-to-commonjs                     5.0.0                               npm        
 @putout/plugin-convert-for-each-to-for-of                  7.1.2                               npm        
-@putout/plugin-convert-for-each-to-for-of                  8.1.0                               npm        
-@putout/plugin-convert-for-in-to-for-of                    2.0.0                               npm        
+@putout/plugin-convert-for-in-to-for-of                    2.0.1                               npm        
 @putout/plugin-convert-for-to-for-of                       3.0.0                               npm        
-@putout/plugin-convert-for-to-for-of                       4.0.0                               npm        
 @putout/plugin-convert-index-of-to-includes                1.1.0                               npm        
 @putout/plugin-convert-map-to-for-of                       1.1.0                               npm        
-@putout/plugin-convert-map-to-for-of                       2.0.2                               npm        
 @putout/plugin-convert-math-pow                            4.0.0                               npm        
 @putout/plugin-convert-mock-require-to-mock-import         2.0.0                               npm        
 @putout/plugin-convert-mock-require-to-mock-import         4.1.0                               npm        
@@ -140,7 +137,6 @@ NAME                                                       VERSION              
 @putout/plugin-convert-object-assign-to-merge-spread       6.0.0                               npm        
 @putout/plugin-convert-quotes-to-backticks                 1.1.2                               npm        
 @putout/plugin-convert-quotes-to-backticks                 2.1.0                               npm        
-@putout/plugin-convert-reduce-to-for-of                    1.4.0                               npm        
 @putout/plugin-convert-template-to-string                  1.0.0                               npm        
 @putout/plugin-convert-to-arrow-function                   3.0.0                               npm        
 @putout/plugin-convert-typeof-to-is-type                   2.0.1                               npm        
@@ -154,6 +150,7 @@ NAME                                                       VERSION              
 @putout/plugin-extract-object-properties                   8.3.1                               npm        
 @putout/plugin-extract-sequence-expressions                2.2.0                               npm        
 @putout/plugin-extract-sequence-expressions                3.5.0                               npm        
+@putout/plugin-for-of                                      1.1.0                               npm        
 @putout/plugin-github                                      2.1.1                               npm        
 @putout/plugin-github                                      4.4.0                               npm        
 @putout/plugin-gitignore                                   3.1.0                               npm        
@@ -208,7 +205,7 @@ NAME                                                       VERSION              
 @putout/plugin-remove-unused-expressions                   4.2.0                               npm        
 @putout/plugin-remove-unused-expressions                   5.0.0                               npm        
 @putout/plugin-remove-unused-for-of-variables              2.0.0                               npm        
-@putout/plugin-remove-unused-for-of-variables              3.0.0                               npm        
+@putout/plugin-remove-unused-for-of-variables              3.0.1                               npm        
 @putout/plugin-remove-unused-private-fields                1.2.1                               npm        
 @putout/plugin-remove-unused-private-fields                2.1.0                               npm        
 @putout/plugin-remove-unused-variables                     4.2.0                               npm        
@@ -216,7 +213,7 @@ NAME                                                       VERSION              
 @putout/plugin-remove-useless-arguments                    6.3.0                               npm        
 @putout/plugin-remove-useless-array-constructor            1.1.0                               npm        
 @putout/plugin-remove-useless-array-entries                1.0.0                               npm        
-@putout/plugin-remove-useless-array-from                   2.1.0                               npm        
+@putout/plugin-remove-useless-array-from                   2.1.1                               npm        
 @putout/plugin-remove-useless-assign                       1.1.0                               npm        
 @putout/plugin-remove-useless-conditions                   1.1.0                               npm        
 @putout/plugin-remove-useless-constructor                  1.0.0                               npm        
@@ -225,7 +222,7 @@ NAME                                                       VERSION              
 @putout/plugin-remove-useless-else                         1.1.0                               npm        
 @putout/plugin-remove-useless-escape                       2.1.0                               npm        
 @putout/plugin-remove-useless-escape                       3.2.0                               npm        
-@putout/plugin-remove-useless-for-of                       2.0.0                               npm        
+@putout/plugin-remove-useless-for-of                       2.0.1                               npm        
 @putout/plugin-remove-useless-functions                    2.0.0                               npm        
 @putout/plugin-remove-useless-map                          1.1.0                               npm        
 @putout/plugin-remove-useless-new                          1.0.1                               npm        
@@ -239,7 +236,7 @@ NAME                                                       VERSION              
 @putout/plugin-remove-useless-type-conversion              1.0.1                               npm        
 @putout/plugin-remove-useless-typeof                       1.0.1                               npm        
 @putout/plugin-remove-useless-variables                    6.3.0                               npm        
-@putout/plugin-remove-useless-variables                    7.3.0                               npm        
+@putout/plugin-remove-useless-variables                    8.0.0                               npm        
 @putout/plugin-reuse-duplicate-init                        3.0.0                               npm        
 @putout/plugin-reuse-duplicate-init                        4.0.0                               npm        
 @putout/plugin-simplify-assignment                         1.0.0                               npm        
@@ -295,7 +292,7 @@ NAME                                                       VERSION              
 @types/minimatch                                           3.0.5                               npm        
 @types/minimist                                            1.2.2                               npm        
 @types/ms                                                  0.7.31                              npm        
-@types/node                                                18.15.0                             npm        
+@types/node                                                18.15.3                             npm        
 @types/normalize-package-data                              2.4.1                               npm        
 @types/parse-json                                          4.0.0                               npm        
 @types/responselike                                        1.0.0                               npm        
@@ -366,8 +363,8 @@ call-bind                                                  1.0.2                
 callsites                                                  3.1.0                               npm        
 camelcase                                                  5.3.1                               npm        
 camelcase-keys                                             6.2.2                               npm        
-caniuse-lite                                               1.0.30001464                        npm        
-cborg                                                      1.10.0                              npm        
+caniuse-lite                                               1.0.30001467                        npm        
+cborg                                                      1.10.1                              npm        
 chalk                                                      2.4.2                               npm        
 chalk                                                      4.1.2                               npm        
 chalk                                                      5.2.0                               npm        
@@ -423,7 +420,7 @@ decode-named-character-reference                           1.0.2                
 decompress-response                                        5.0.0                               npm        
 decompress-response                                        6.0.0                               npm        
 deep-extend                                                0.6.0                               npm        
-deepmerge                                                  4.3.0                               npm        
+deepmerge                                                  4.3.1                               npm        
 deepword                                                   8.0.1                               npm        
 defer-to-connect                                           2.0.1                               npm        
 define-lazy-prop                                           2.0.0                               npm        
@@ -446,7 +443,7 @@ dword                                                      13.0.6               
 edward                                                     13.0.3                              npm        
 ee-first                                                   1.1.1                               npm        
 electron-fetch                                             1.9.1                               npm        
-electron-to-chromium                                       1.4.328                             npm        
+electron-to-chromium                                       1.4.333                             npm        
 emmet-codemirror                                           1.1.0                               npm        
 emoji-regex                                                10.2.1                              npm        
 emoji-regex                                                8.0.0                               npm        
@@ -808,7 +805,7 @@ isexe                                                      2.0.0                
 iso-constants                                              0.1.2                               npm        
 iso-url                                                    1.2.1                               npm        
 isobject                                                   3.0.1                               npm        
-isomorphic-git                                             1.21.0                              npm        
+isomorphic-git                                             1.22.0                              npm        
 it-all                                                     1.0.6                               npm        
 it-concat                                                  2.0.0                               npm        
 it-drain                                                   1.0.5                               npm        
@@ -1033,7 +1030,7 @@ pump                                                       3.0.0                
 pumpify                                                    1.5.1                               npm        
 punycode                                                   2.3.0                               npm        
 putout                                                     24.6.0                              npm        
-putout                                                     29.1.1                              npm        
+putout                                                     29.1.4                              npm        
 python                                                     3.9.16                              binary     
 python3                                                    3.9.16-r0                           apk        
 qs                                                         6.11.0                              npm        
