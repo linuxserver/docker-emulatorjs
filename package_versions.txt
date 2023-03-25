@@ -29,7 +29,7 @@ NAME                                                       VERSION              
 @cloudcmd/read-files-sync                                  2.0.2                               npm        
 @cloudcmd/rename-files                                     2.0.0                               npm        
 @cloudcmd/sortify                                          2.0.1                               npm        
-@csstools/selector-specificity                             2.1.1                               npm        
+@csstools/selector-specificity                             2.2.0                               npm        
 @iocmd/hold-up                                             1.1.2                               npm        
 @ipld/dag-cbor                                             6.0.15                              npm        
 @ipld/dag-pb                                               2.1.18                              npm        
@@ -93,7 +93,7 @@ NAME                                                       VERSION              
 @putout/operate                                            7.1.0                               npm        
 @putout/operate                                            8.8.0                               npm        
 @putout/operator-add-args                                  2.0.1                               npm        
-@putout/operator-add-args                                  3.1.0                               npm        
+@putout/operator-add-args                                  4.1.0                               npm        
 @putout/operator-declare                                   3.2.0                               npm        
 @putout/operator-declare                                   5.0.1                               npm        
 @putout/operator-regexp                                    1.0.0                               npm        
@@ -288,11 +288,11 @@ NAME                                                       VERSION              
 @types/http-cache-semantics                                4.0.1                               npm        
 @types/keyv                                                3.1.4                               npm        
 @types/long                                                4.0.2                               npm        
-@types/mdast                                               3.0.10                              npm        
+@types/mdast                                               3.0.11                              npm        
 @types/minimatch                                           3.0.5                               npm        
 @types/minimist                                            1.2.2                               npm        
 @types/ms                                                  0.7.31                              npm        
-@types/node                                                18.15.3                             npm        
+@types/node                                                18.15.9                             npm        
 @types/normalize-package-data                              2.4.1                               npm        
 @types/parse-json                                          4.0.0                               npm        
 @types/responselike                                        1.0.0                               npm        
@@ -363,7 +363,7 @@ call-bind                                                  1.0.2                
 callsites                                                  3.1.0                               npm        
 camelcase                                                  5.3.1                               npm        
 camelcase-keys                                             6.2.2                               npm        
-caniuse-lite                                               1.0.30001467                        npm        
+caniuse-lite                                               1.0.30001469                        npm        
 cborg                                                      1.10.1                              npm        
 chalk                                                      2.4.2                               npm        
 chalk                                                      4.1.2                               npm        
@@ -443,7 +443,7 @@ dword                                                      13.0.6               
 edward                                                     13.0.3                              npm        
 ee-first                                                   1.1.1                               npm        
 electron-fetch                                             1.9.1                               npm        
-electron-to-chromium                                       1.4.333                             npm        
+electron-to-chromium                                       1.4.340                             npm        
 emmet-codemirror                                           1.1.0                               npm        
 emoji-regex                                                10.2.1                              npm        
 emoji-regex                                                8.0.0                               npm        
@@ -805,7 +805,7 @@ isexe                                                      2.0.0                
 iso-constants                                              0.1.2                               npm        
 iso-url                                                    1.2.1                               npm        
 isobject                                                   3.0.1                               npm        
-isomorphic-git                                             1.22.0                              npm        
+isomorphic-git                                             1.23.0                              npm        
 it-all                                                     1.0.6                               npm        
 it-concat                                                  2.0.0                               npm        
 it-drain                                                   1.0.5                               npm        
@@ -1030,7 +1030,7 @@ pump                                                       3.0.0                
 pumpify                                                    1.5.1                               npm        
 punycode                                                   2.3.0                               npm        
 putout                                                     24.6.0                              npm        
-putout                                                     29.1.4                              npm        
+putout                                                     29.1.5                              npm        
 python                                                     3.9.16                              binary     
 python3                                                    3.9.16-r0                           apk        
 qs                                                         6.11.0                              npm        
