@@ -8,7 +8,7 @@ lsiown abc:abc \
 # ipfs migrate check on startup
 if [[ -d "/data/.ipfs" ]]; then
     echo "[ipfs-upgrade] Checking if fs-repo needs to be upgraded (this may take some time)"
-    HOME=/data s6-setuidgid abc /usr/bin/fs-repo-migrations -y -to 12
+    HOME=/data s6-setuidgid abc /usr/bin/fs-repo-migrations -y -to 13
 fi
 
 # ipfs config
