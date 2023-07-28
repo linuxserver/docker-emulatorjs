@@ -86,7 +86,7 @@ app_setup_block: |
   * ws
 # changelog
 changelogs:
-  - {date: "09.06.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3."}
+  - {date: "09.08.23:", desc: "Rebase to Alpine 3.18, migrate to s6v3."}
   - {date: "06.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "24.11.22:", desc: "Update IPFS links for chdman."}
   - {date: "04.04.22:", desc: "Ingest pre-built chdman bins during build time."}
