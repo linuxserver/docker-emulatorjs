@@ -284,6 +284,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 ## Versions
 
 * **09.06.23:** - Rebase to Alpine 3.18, migrate to s6v3, deprecate armhf.
+* **06.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **24.11.22:** - Update IPFS links for chdman.
 * **04.04.22:** - Ingest pre-built chdman bins during build time.
 * **23.02.22:** - Update ingestion point for emulatorjs bins.
