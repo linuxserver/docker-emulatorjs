@@ -44,7 +44,6 @@ RUN \
 FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as nodebuilder
 
 ARG EMULATORJS_RELEASE
-ARG RETRO_VERSION=1.9.10
 
 RUN \
   echo "**** install build packages ****" && \
