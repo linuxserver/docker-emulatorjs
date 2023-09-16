@@ -1,9 +1,30 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15 as binbuilder
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-alpine:3.14 as migrationbuilder
 
 RUN \
   echo "**** install build packages ****" && \
   apk add \
-    curl \
+    git \
+    go
+
+RUN \
+  echo "**** build fs-repo-migrations ****" && \
+  mkdir -p /build-out/usr/bin && \
+  git clone https://github.com/ipfs/fs-repo-migrations.git && \
+  cd fs-repo-migrations && \
+  for BUILD in fs-repo-migrations fs-repo-9-to-10 fs-repo-10-to-11 fs-repo-11-to-12; do \
+    cd ${BUILD} && \
+    go build && \
+    mv fs-repo-* /build-out/usr/bin/ && \
+    cd .. ; \
+  done
+
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as binbuilder
+
+RUN \
+  echo "**** install build packages ****" && \
+  apk add \
     git \
     go
 
@@ -28,15 +49,25 @@ RUN \
   chmod +x /tmp/binmerge && \
   mv /tmp/binmerge /build-out/usr/local/bin
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15 as nodebuilder
+RUN \
+  echo "**** build fs-repo-migrations ****" && \
+  mkdir /build-out/usr/bin && \
+  git clone https://github.com/ipfs/fs-repo-migrations.git && \
+  cd fs-repo-migrations && \
+  for BUILD in fs-repo-migrations fs-repo-12-to-13; do \
+    cd ${BUILD} && \
+    go build && \
+    mv fs-repo-* /build-out/usr/bin/ && \
+    cd .. ; \
+  done
+
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as nodebuilder
 
 ARG EMULATORJS_RELEASE
-ARG RETRO_VERSION=1.9.10
 
 RUN \
   echo "**** install build packages ****" && \
   apk add \
-    curl \
     nodejs \
     npm \
     p7zip \
@@ -81,7 +112,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
 # set version label
 ARG BUILD_DATE
@@ -92,27 +123,24 @@ LABEL maintainer="thelamer"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
-    curl \
     file \
     flac \
-    go-ipfs \
+    kubo \
     nginx \
     nodejs \
     p7zip \
     python3 \
     sdl2 && \
+  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+    mame-tools && \
   mkdir /data && \
-  echo "**** grab pre-built chdman ****" && \
-  curl -L \
-    "https://infura-ipfs.io/ipfs/QmUfYfuoxPgDRc9Mniv1TBXv6LXPRNArAabZo5VnzfZNtP" \
-    -o /usr/local/bin/chdman && \
-  chmod +x /usr/local/bin/chdman && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
 
 # add local files and files from buildstage
 COPY --from=binbuilder /build-out/ /
+COPY --from=migrationbuilder /build-out/ /
 COPY --from=nodebuilder /emulatorjs/ /emulatorjs/
 COPY root/ /
 

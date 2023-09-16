@@ -1,5 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-cd /emulatorjs || exit
-HOME=/config exec \
-    s6-setuidgid abc node profile.js
