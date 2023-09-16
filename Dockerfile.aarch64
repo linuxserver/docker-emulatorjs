@@ -7,7 +7,8 @@ RUN \
   apk add \
     git \
     gcc \
-    go
+    go \
+    musl-dev
 
 RUN \
   echo "**** build fs-repo-migrations ****" && \
@@ -28,7 +29,8 @@ RUN \
   apk add \
     git \
     gcc \
-    go
+    go \
+    musl-dev
 
 RUN \
   echo "**** build nestool ****" && \
