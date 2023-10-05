@@ -70,17 +70,17 @@ NAME                                                             VERSION        
 @putout/cli-ruler                                                3.1.0                                 npm        
 @putout/cli-staged                                               1.1.0                                 npm        
 @putout/cli-validate-args                                        1.1.1                                 npm        
-@putout/compare                                                  13.0.1                                npm        
+@putout/compare                                                  13.1.0                                npm        
 @putout/compare                                                  8.7.0                                 npm        
 @putout/engine-loader                                            12.0.0                                npm        
 @putout/engine-loader                                            5.1.0                                 npm        
 @putout/engine-parser                                            4.10.2                                npm        
-@putout/engine-parser                                            9.3.0                                 npm        
+@putout/engine-parser                                            9.4.0                                 npm        
 @putout/engine-processor                                         10.0.0                                npm        
 @putout/engine-processor                                         4.1.0                                 npm        
 @putout/engine-runner                                            12.6.0                                npm        
-@putout/engine-runner                                            19.0.1                                npm        
-@putout/eslint                                                   2.3.0                                 npm        
+@putout/engine-runner                                            19.0.2                                npm        
+@putout/eslint                                                   2.4.0                                 npm        
 @putout/formatter-codeframe                                      3.0.1                                 npm        
 @putout/formatter-codeframe                                      5.0.2                                 npm        
 @putout/formatter-dump                                           3.0.2                                 npm        
@@ -102,7 +102,7 @@ NAME                                                             VERSION        
 @putout/operate                                                  11.0.0                                npm        
 @putout/operate                                                  7.1.0                                 npm        
 @putout/operator-add-args                                        2.0.1                                 npm        
-@putout/operator-add-args                                        7.0.1                                 npm        
+@putout/operator-add-args                                        7.1.0                                 npm        
 @putout/operator-declare                                         3.2.0                                 npm        
 @putout/operator-declare                                         8.0.2                                 npm        
 @putout/operator-regexp                                          1.0.0                                 npm        
@@ -152,7 +152,7 @@ NAME                                                             VERSION        
 @putout/plugin-convert-object-assign-to-merge-spread             5.0.0                                 npm        
 @putout/plugin-convert-object-assign-to-merge-spread             6.0.0                                 npm        
 @putout/plugin-convert-object-entries-to-array-entries           3.0.1                                 npm        
-@putout/plugin-convert-optional-to-logical                       3.0.0                                 npm        
+@putout/plugin-convert-optional-to-logical                       3.1.0                                 npm        
 @putout/plugin-convert-quotes-to-backticks                       1.1.2                                 npm        
 @putout/plugin-convert-quotes-to-backticks                       2.1.0                                 npm        
 @putout/plugin-convert-template-to-string                        1.0.0                                 npm        
@@ -282,7 +282,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        5.0.3                                 npm        
 @putout/plugin-webpack                                           1.4.0                                 npm        
 @putout/plugin-webpack                                           3.0.0                                 npm        
-@putout/printer                                                  5.12.0                                npm        
+@putout/printer                                                  5.21.0                                npm        
 @putout/processor-css                                            3.1.1                                 npm        
 @putout/processor-css                                            7.0.1                                 npm        
 @putout/processor-ignore                                         2.0.0                                 npm        
@@ -322,7 +322,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                 npm        
 @types/minimist                                                  1.2.3                                 npm        
 @types/ms                                                        0.7.32                                npm        
-@types/node                                                      20.7.1                                npm        
+@types/node                                                      20.8.2                                npm        
 @types/normalize-package-data                                    2.4.2                                 npm        
 @types/parse-json                                                4.0.0                                 npm        
 @types/responselike                                              1.0.1                                 npm        
@@ -339,7 +339,7 @@ ajv                                                              8.12.0         
 alpine-baselayout                                                3.4.3-r1                              apk        
 alpine-baselayout-data                                           3.4.3-r1                              apk        
 alpine-keys                                                      2.4-r1                                apk        
-alpine-release                                                   3.18.3-r0                             apk        
+alpine-release                                                   3.18.4-r0                             apk        
 ansi-regex                                                       5.0.1                                 npm        
 ansi-styles                                                      3.2.1                                 npm        
 ansi-styles                                                      4.3.0                                 npm        
@@ -380,7 +380,7 @@ braces                                                           3.0.2          
 brotli-libs                                                      1.0.9-r14                             apk        
 browser-readablestream-to-it                                     1.0.3                                 npm        
 browserify-zlib                                                  0.1.4                                 npm        
-browserslist                                                     4.22.0                                npm        
+browserslist                                                     4.22.1                                npm        
 buffer                                                           5.7.1                                 npm        
 buffer                                                           6.0.3                                 npm        
 buffer-crc32                                                     0.2.13                                npm        
@@ -402,7 +402,7 @@ camelcase                                                        5.3.1          
 camelcase                                                        6.3.0                                 npm        
 camelcase-keys                                                   6.2.2                                 npm        
 camelcase-keys                                                   7.0.2                                 npm        
-caniuse-lite                                                     1.0.30001541                          npm        
+caniuse-lite                                                     1.0.30001546                          npm        
 catharsis                                                        0.9.0                                 npm        
 cborg                                                            1.10.2                                npm        
 chalk                                                            2.4.2                                 npm        
@@ -411,7 +411,7 @@ chalk                                                            5.3.0          
 character-entities                                               2.0.2                                 npm        
 checkup                                                          1.3.0                                 npm        
 chownr                                                           1.1.4                                 npm        
-ci-info                                                          3.8.0                                 npm        
+ci-info                                                          3.9.0                                 npm        
 clean-git-ref                                                    2.0.1                                 npm        
 cli-progress                                                     3.12.0                                npm        
 clone-response                                                   1.0.3                                 npm        
@@ -489,7 +489,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                npm        
 ee-first                                                         1.1.1                                 npm        
 electron-fetch                                                   1.9.1                                 npm        
-electron-to-chromium                                             1.4.532                               npm        
+electron-to-chromium                                             1.4.542                               npm        
 emmet-codemirror                                                 1.1.0                                 npm        
 emoji-regex                                                      10.2.1                                npm        
 emoji-regex                                                      8.0.0                                 npm        
@@ -953,7 +953,7 @@ got                                                              11.8.6         
 graceful-fs                                                      4.2.10                                npm        
 gunzip-maybe                                                     1.4.2                                 npm        
 hard-rejection                                                   2.1.0                                 npm        
-has                                                              1.0.3                                 npm        
+has                                                              1.0.4                                 npm        
 has-flag                                                         3.0.0                                 npm        
 has-flag                                                         4.0.0                                 npm        
 has-property-descriptors                                         1.0.0                                 npm        
@@ -1287,7 +1287,7 @@ pkg-dir                                                          4.2.0          
 pkg-dir                                                          7.0.0                                 npm        
 pluralize                                                        8.0.0                                 npm        
 ponse                                                            6.0.0                                 npm        
-postcss                                                          8.4.30                                npm        
+postcss                                                          8.4.31                                npm        
 postcss-media-query-parser                                       0.2.3                                 npm        
 postcss-resolve-nested-selector                                  0.1.1                                 npm        
 postcss-safe-parser                                              6.0.0                                 npm        
@@ -1305,9 +1305,9 @@ punycode                                                         2.3.0          
 putout                                                           24.6.0                                npm        
 putout                                                           32.2.0                                npm        
 pyc                                                              0.1-r0                                apk        
-python3                                                          3.11.5-r0                             apk        
-python3-pyc                                                      3.11.5-r0                             apk        
-python3-pycache-pyc0                                             3.11.5-r0                             apk        
+python3                                                          3.11.6-r0                             apk        
+python3-pyc                                                      3.11.6-r0                             apk        
+python3-pycache-pyc0                                             3.11.6-r0                             apk        
 qs                                                               6.11.0                                npm        
 queue-microtask                                                  1.2.3                                 npm        
 quick-lru                                                        4.0.1                                 npm        
