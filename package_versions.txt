@@ -131,7 +131,7 @@ NAME                                                             VERSION        
 @putout/plugin-browserlist                                       1.0.1                                 npm        
 @putout/plugin-browserlist                                       2.0.0                                 npm        
 @putout/plugin-cloudcmd                                          1.2.0                                 npm        
-@putout/plugin-conditions                                        4.0.1                                 npm        
+@putout/plugin-conditions                                        4.1.0                                 npm        
 @putout/plugin-convert-apply-to-spread                           3.1.0                                 npm        
 @putout/plugin-convert-apply-to-spread                           4.0.0                                 npm        
 @putout/plugin-convert-arguments-to-rest                         1.3.0                                 npm        
@@ -176,7 +176,6 @@ NAME                                                             VERSION        
 @putout/plugin-extract-object-properties                         9.0.0                                 npm        
 @putout/plugin-extract-sequence-expressions                      2.2.0                                 npm        
 @putout/plugin-extract-sequence-expressions                      3.5.0                                 npm        
-@putout/plugin-filesystem                                        1.10.0                                npm        
 @putout/plugin-filesystem                                        2.2.0                                 npm        
 @putout/plugin-for-of                                            3.0.0                                 npm        
 @putout/plugin-github                                            10.0.0                                npm        
@@ -185,7 +184,7 @@ NAME                                                             VERSION        
 @putout/plugin-gitignore                                         4.0.0                                 npm        
 @putout/plugin-logical-expressions                               5.0.0                                 npm        
 @putout/plugin-madrun                                            13.0.0                                npm        
-@putout/plugin-madrun                                            17.4.0                                npm        
+@putout/plugin-madrun                                            18.0.0                                npm        
 @putout/plugin-math                                              2.1.0                                 npm        
 @putout/plugin-maybe                                             2.0.1                                 npm        
 @putout/plugin-merge-destructuring-properties                    6.2.1                                 npm        
@@ -293,7 +292,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        5.0.3                                 npm        
 @putout/plugin-webpack                                           1.4.0                                 npm        
 @putout/plugin-webpack                                           3.0.0                                 npm        
-@putout/printer                                                  6.7.0                                 npm        
+@putout/printer                                                  6.11.0                                npm        
 @putout/processor-css                                            3.1.1                                 npm        
 @putout/processor-css                                            7.0.1                                 npm        
 @putout/processor-filesystem                                     2.0.2                                 npm        
@@ -504,12 +503,12 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                npm        
 ee-first                                                         1.1.1                                 npm        
 electron-fetch                                                   1.9.1                                 npm        
-electron-to-chromium                                             1.4.597                               npm        
+electron-to-chromium                                             1.4.598                               npm        
 emmet-codemirror                                                 1.1.0                                 npm        
 emoji-regex                                                      10.3.0                                npm        
 emoji-regex                                                      8.0.0                                 npm        
 emoji-regex                                                      9.2.2                                 npm        
-emulatorjs                                                       1.7.2                                 npm        
+emulatorjs                                                       1.7.3                                 npm        
 encodeurl                                                        1.0.2                                 npm        
 encoding                                                         0.1.13                                npm        
 end-of-stream                                                    1.4.4                                 npm        
@@ -1253,7 +1252,7 @@ object-assign                                                    4.1.1          
 object-inspect                                                   1.13.1                                npm        
 object-is                                                        1.1.5                                 npm        
 object-keys                                                      1.1.1                                 npm        
-object.assign                                                    4.1.4                                 npm        
+object.assign                                                    4.1.5                                 npm        
 object.omit                                                      3.0.0                                 npm        
 on-finished                                                      2.4.1                                 npm        
 on-headers                                                       1.0.2                                 npm        
@@ -1320,7 +1319,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                 npm        
 punycode                                                         2.3.1                                 npm        
 putout                                                           24.6.0                                npm        
-putout                                                           33.13.0                               npm        
+putout                                                           33.13.3                               npm        
 pyc                                                              0.1-r0                                apk        
 python3                                                          3.11.6-r0                             apk        
 python3-pyc                                                      3.11.6-r0                             apk        
