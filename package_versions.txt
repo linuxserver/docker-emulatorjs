@@ -65,7 +65,7 @@ NAME                                                             VERSION        
 @putout/cli-cache                                                2.4.0                                 npm        
 @putout/cli-choose                                               1.1.1                                 npm        
 @putout/cli-choose-formatter                                     2.0.0                                 npm        
-@putout/cli-filesystem                                           1.5.0                                 npm        
+@putout/cli-filesystem                                           1.6.0                                 npm        
 @putout/cli-keypress                                             1.0.0                                 npm        
 @putout/cli-keypress                                             2.0.0                                 npm        
 @putout/cli-match                                                1.0.1                                 npm        
@@ -110,7 +110,7 @@ NAME                                                             VERSION        
 @putout/operator-add-args                                        7.1.0                                 npm        
 @putout/operator-declare                                         3.2.0                                 npm        
 @putout/operator-declare                                         8.0.2                                 npm        
-@putout/operator-filesystem                                      2.12.0                                npm        
+@putout/operator-filesystem                                      2.12.2                                npm        
 @putout/operator-json                                            1.3.0                                 npm        
 @putout/operator-match-files                                     1.3.1                                 npm        
 @putout/operator-regexp                                          1.0.0                                 npm        
@@ -131,7 +131,7 @@ NAME                                                             VERSION        
 @putout/plugin-browserlist                                       1.0.1                                 npm        
 @putout/plugin-browserlist                                       2.0.0                                 npm        
 @putout/plugin-cloudcmd                                          1.2.0                                 npm        
-@putout/plugin-conditions                                        4.1.0                                 npm        
+@putout/plugin-conditions                                        4.2.0                                 npm        
 @putout/plugin-convert-apply-to-spread                           3.1.0                                 npm        
 @putout/plugin-convert-apply-to-spread                           4.0.0                                 npm        
 @putout/plugin-convert-arguments-to-rest                         1.3.0                                 npm        
@@ -176,7 +176,7 @@ NAME                                                             VERSION        
 @putout/plugin-extract-object-properties                         9.0.0                                 npm        
 @putout/plugin-extract-sequence-expressions                      2.2.0                                 npm        
 @putout/plugin-extract-sequence-expressions                      3.5.0                                 npm        
-@putout/plugin-filesystem                                        2.2.0                                 npm        
+@putout/plugin-filesystem                                        2.4.2                                 npm        
 @putout/plugin-for-of                                            3.0.0                                 npm        
 @putout/plugin-github                                            10.0.0                                npm        
 @putout/plugin-github                                            2.1.1                                 npm        
@@ -204,7 +204,7 @@ NAME                                                             VERSION        
 @putout/plugin-promises                                          13.1.0                                npm        
 @putout/plugin-promises                                          7.0.0                                 npm        
 @putout/plugin-putout                                            10.2.0                                npm        
-@putout/plugin-putout                                            17.2.0                                npm        
+@putout/plugin-putout                                            17.3.0                                npm        
 @putout/plugin-putout-config                                     2.0.0                                 npm        
 @putout/plugin-putout-config                                     4.2.0                                 npm        
 @putout/plugin-regexp                                            4.1.0                                 npm        
@@ -282,9 +282,9 @@ NAME                                                             VERSION        
 @putout/plugin-split-nested-destructuring                        3.0.0                                 npm        
 @putout/plugin-split-variable-declarations                       2.1.1                                 npm        
 @putout/plugin-split-variable-declarations                       3.0.0                                 npm        
+@putout/plugin-strict-mode                                       10.0.1                                npm        
 @putout/plugin-strict-mode                                       3.0.0                                 npm        
-@putout/plugin-strict-mode                                       9.0.0                                 npm        
-@putout/plugin-tape                                              12.0.1                                npm        
+@putout/plugin-tape                                              12.1.0                                npm        
 @putout/plugin-tape                                              8.0.0                                 npm        
 @putout/plugin-try-catch                                         3.0.0                                 npm        
 @putout/plugin-types                                             3.0.0                                 npm        
@@ -292,7 +292,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        5.0.3                                 npm        
 @putout/plugin-webpack                                           1.4.0                                 npm        
 @putout/plugin-webpack                                           3.0.0                                 npm        
-@putout/printer                                                  6.11.0                                npm        
+@putout/printer                                                  6.16.0                                npm        
 @putout/processor-css                                            3.1.1                                 npm        
 @putout/processor-css                                            7.0.1                                 npm        
 @putout/processor-filesystem                                     2.0.2                                 npm        
@@ -334,7 +334,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                 npm        
 @types/minimist                                                  1.2.5                                 npm        
 @types/ms                                                        0.7.34                                npm        
-@types/node                                                      20.10.1                               npm        
+@types/node                                                      20.10.4                               npm        
 @types/normalize-package-data                                    2.4.4                                 npm        
 @types/parse-json                                                4.0.2                                 npm        
 @types/responselike                                              1.0.3                                 npm        
@@ -351,7 +351,7 @@ ajv                                                              8.12.0         
 alpine-baselayout                                                3.4.3-r1                              apk        
 alpine-baselayout-data                                           3.4.3-r1                              apk        
 alpine-keys                                                      2.4-r1                                apk        
-alpine-release                                                   3.18.4-r0                             apk        
+alpine-release                                                   3.18.5-r0                             apk        
 ansi-colors                                                      4.1.3                                 npm        
 ansi-regex                                                       5.0.1                                 npm        
 ansi-styles                                                      3.2.1                                 npm        
@@ -393,7 +393,7 @@ braces                                                           3.0.2          
 brotli-libs                                                      1.0.9-r14                             apk        
 browser-readablestream-to-it                                     1.0.3                                 npm        
 browserify-zlib                                                  0.1.4                                 npm        
-browserslist                                                     4.22.1                                npm        
+browserslist                                                     4.22.2                                npm        
 buffer                                                           5.7.1                                 npm        
 buffer                                                           6.0.3                                 npm        
 buffer-crc32                                                     0.2.13                                npm        
@@ -415,7 +415,7 @@ camelcase                                                        5.3.1          
 camelcase                                                        6.3.0                                 npm        
 camelcase-keys                                                   6.2.2                                 npm        
 camelcase-keys                                                   7.0.2                                 npm        
-caniuse-lite                                                     1.0.30001565                          npm        
+caniuse-lite                                                     1.0.30001566                          npm        
 catharsis                                                        0.9.0                                 npm        
 cborg                                                            1.10.2                                npm        
 chalk                                                            2.4.2                                 npm        
@@ -426,6 +426,7 @@ checkup                                                          1.3.0          
 chownr                                                           1.1.4                                 npm        
 ci-info                                                          3.9.0                                 npm        
 ci-info                                                          4.0.0                                 npm        
+clean-css                                                        5.3.3                                 npm        
 clean-git-ref                                                    2.0.1                                 npm        
 cli-progress                                                     3.12.0                                npm        
 clone-response                                                   1.0.3                                 npm        
@@ -503,7 +504,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                npm        
 ee-first                                                         1.1.1                                 npm        
 electron-fetch                                                   1.9.1                                 npm        
-electron-to-chromium                                             1.4.598                               npm        
+electron-to-chromium                                             1.4.607                               npm        
 emmet-codemirror                                                 1.1.0                                 npm        
 emoji-regex                                                      10.3.0                                npm        
 emoji-regex                                                      8.0.0                                 npm        
@@ -1241,7 +1242,7 @@ nginx                                                            1.24.0-r7      
 nhooyr.io/websocket                                              v1.8.7                                go-module  
 nicki                                                            6.1.1                                 npm        
 node-fetch                                                       2.7.0                                 npm        
-node-releases                                                    2.0.13                                npm        
+node-releases                                                    2.0.14                                npm        
 nodejs                                                           18.18.2-r0                            apk        
 nomine                                                           4.0.0                                 npm        
 normalize-package-data                                           2.5.0                                 npm        
@@ -1303,7 +1304,7 @@ pkg-dir                                                          4.2.0          
 pkg-dir                                                          7.0.0                                 npm        
 pluralize                                                        8.0.0                                 npm        
 ponse                                                            6.0.0                                 npm        
-postcss                                                          8.4.31                                npm        
+postcss                                                          8.4.32                                npm        
 postcss-media-query-parser                                       0.2.3                                 npm        
 postcss-resolve-nested-selector                                  0.1.1                                 npm        
 postcss-safe-parser                                              6.0.0                                 npm        
@@ -1319,7 +1320,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                 npm        
 punycode                                                         2.3.1                                 npm        
 putout                                                           24.6.0                                npm        
-putout                                                           33.13.3                               npm        
+putout                                                           33.13.4                               npm        
 pyc                                                              0.1-r0                                apk        
 python3                                                          3.11.6-r0                             apk        
 python3-pyc                                                      3.11.6-r0                             apk        
