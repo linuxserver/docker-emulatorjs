@@ -20,7 +20,7 @@ RUN \
     cd .. ; \
   done
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as binbuilder
+FROM ghcr.io/linuxserver/baseimage-alpine:3.19 as binbuilder
 
 RUN \
   echo "**** install build packages ****" && \
@@ -54,14 +54,14 @@ RUN \
   mkdir /build-out/usr/bin && \
   git clone https://github.com/ipfs/fs-repo-migrations.git && \
   cd fs-repo-migrations && \
-  for BUILD in fs-repo-migrations fs-repo-12-to-13; do \
+  for BUILD in fs-repo-migrations fs-repo-12-to-13 fs-repo-13-to-14 fs-repo-14-to-15; do \
     cd ${BUILD} && \
     go build && \
     mv fs-repo-* /build-out/usr/bin/ && \
     cd .. ; \
   done
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.18 as nodebuilder
+FROM ghcr.io/linuxserver/baseimage-alpine:3.19 as nodebuilder
 
 ARG EMULATORJS_RELEASE
 
@@ -112,7 +112,7 @@ RUN \
   npm install
 
 # runtime stage
-FROM ghcr.io/linuxserver/baseimage-alpine:3.18
+FROM ghcr.io/linuxserver/baseimage-alpine:3.19
 
 # set version label
 ARG BUILD_DATE
