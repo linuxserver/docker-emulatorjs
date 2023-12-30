@@ -1,6 +1,10 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
+if [ ! -z ${DISABLE_IPFS+x} ]; then
+  sleep infinity
+fi
+
 HOME=/data exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 4001" \
         s6-setuidgid abc ipfs daemon

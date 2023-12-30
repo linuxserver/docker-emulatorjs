@@ -74,7 +74,7 @@ Mobile browsers will function, just keep in mind compatibility will be reduced e
 
 **We know about most of the oddities like crackling sound for some emulators, rendering issues, and games unreliably auto launching to fullscreen. In general full CD games on the Xbox web browser do not seem to work due to their size if you have a chd/pbp less than 450 megs it will run. Edge on Xbox has some kind of undocumented ram limitation of about a gigabyte. Until all emulators are transitioned to libretro cores the oddities of using self hosted EmulatorJS will not be something that can or should be solved using hacky workarounds interacting with obfuscated code. Just keep in mind these are full blown machine emulators running in Javascript in a browser, do not expect bare metal performance.**
 
-**This container (outside of the profile functionality) only generates a static set of files that can be hosted on any web provider even object storage. Eveyrthing runs in the clients browser and there are no dependencies on this container. To extract/copy this website it is at the path `/emulatorjs/frontend` inside the container. If you are happy with the catalouge you have created and no longer want to run stuff like the IPFS backend or want to upload these files to some other hosting provider you can simply copy the contents of that directory and kill off this container.**
+**This container (outside of the profile functionality) only generates a static set of files that can be hosted on any web provider even object storage. Eveyrthing runs in the clients browser and there are no dependencies on this container. To extract/copy this website it is at the path `/emulatorjs/frontend` inside the container. If you are happy with the catalouge you have created and no longer want to run stuff like the IPFS backend or want to upload these files to some other hosting provider you can simply copy the contents of that directory and kill off this container. This container can also be started without IPFS once you collection is set using the environment variable `-e DISABLE_IPFS=true`.**
 
 Mounting in existing rom directories can be achieved by pointing to the default folder structure, IE lets say you would like to mount your NES library:
 
@@ -350,6 +350,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **29.12.23:** - Rebase to Alpine 3.19, add option to launch without IPFS.
 * **09.08.23:** - Rebase to Alpine 3.18, migrate to s6v3.
 * **06.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **24.11.22:** - Update IPFS links for chdman.
