@@ -334,7 +334,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm        
 @types/minimist                                                  1.2.5                                  npm        
 @types/ms                                                        0.7.34                                 npm        
-@types/node                                                      20.10.6                                npm        
+@types/node                                                      20.10.7                                npm        
 @types/normalize-package-data                                    2.4.4                                  npm        
 @types/parse-json                                                4.0.2                                  npm        
 @types/responselike                                              1.0.3                                  npm        
@@ -418,7 +418,7 @@ call-bind                                                        1.0.5          
 callsites                                                        3.1.0                                  npm        
 camelcase                                                        5.3.1                                  npm        
 camelcase-keys                                                   6.2.2                                  npm        
-caniuse-lite                                                     1.0.30001574                           npm        
+caniuse-lite                                                     1.0.30001576                           npm        
 catharsis                                                        0.9.0                                  npm        
 cborg                                                            1.10.2                                 npm        
 chalk                                                            2.4.2                                  npm        
@@ -516,7 +516,7 @@ emmet-codemirror                                                 1.1.0          
 emoji-regex                                                      10.3.0                                 npm        
 emoji-regex                                                      8.0.0                                  npm        
 emoji-regex                                                      9.2.2                                  npm        
-emulatorjs                                                       1.7.3                                  npm        
+emulatorjs                                                       1.8.0                                  npm        
 encodeurl                                                        1.0.2                                  npm        
 encoding                                                         0.1.13                                 npm        
 end-of-stream                                                    1.4.4                                  npm        
@@ -1072,7 +1072,7 @@ isexe                                                            2.0.0          
 iso-constants                                                    0.1.2                                  npm        
 iso-url                                                          1.2.1                                  npm        
 isobject                                                         3.0.1                                  npm        
-isomorphic-git                                                   1.25.2                                 npm        
+isomorphic-git                                                   1.25.3                                 npm        
 it-all                                                           1.0.6                                  npm        
 it-concat                                                        2.0.0                                  npm        
 it-drain                                                         1.0.5                                  npm        
