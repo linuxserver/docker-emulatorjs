@@ -17,11 +17,11 @@ NAME                                                             VERSION        
 @babel/helper-string-parser                                      7.23.4                                 npm        
 @babel/helper-validator-identifier                               7.22.20                                npm        
 @babel/helper-validator-option                                   7.23.5                                 npm        
-@babel/helpers                                                   7.23.7                                 npm        
+@babel/helpers                                                   7.23.8                                 npm        
 @babel/highlight                                                 7.23.4                                 npm        
 @babel/parser                                                    7.18.13                                npm        
 @babel/parser                                                    7.23.6                                 npm        
-@babel/runtime                                                   7.23.7                                 npm        
+@babel/runtime                                                   7.23.8                                 npm        
 @babel/template                                                  7.22.15                                npm        
 @babel/traverse                                                  7.23.7                                 npm        
 @babel/types                                                     7.23.6                                 npm        
@@ -179,7 +179,7 @@ NAME                                                             VERSION        
 @putout/plugin-extract-sequence-expressions                      2.2.0                                  npm        
 @putout/plugin-extract-sequence-expressions                      3.5.0                                  npm        
 @putout/plugin-filesystem                                        3.18.0                                 npm        
-@putout/plugin-for-of                                            3.0.0                                  npm        
+@putout/plugin-for-of                                            4.0.0                                  npm        
 @putout/plugin-github                                            11.0.0                                 npm        
 @putout/plugin-github                                            2.1.1                                  npm        
 @putout/plugin-gitignore                                         3.1.0                                  npm        
@@ -264,8 +264,8 @@ NAME                                                             VERSION        
 @putout/plugin-remove-useless-replace                            1.0.4                                  npm        
 @putout/plugin-remove-useless-return                             4.2.0                                  npm        
 @putout/plugin-remove-useless-return                             6.0.0                                  npm        
+@putout/plugin-remove-useless-spread                             10.0.1                                 npm        
 @putout/plugin-remove-useless-spread                             5.3.0                                  npm        
-@putout/plugin-remove-useless-spread                             9.0.0                                  npm        
 @putout/plugin-remove-useless-template-expressions               1.2.0                                  npm        
 @putout/plugin-remove-useless-template-expressions               2.0.0                                  npm        
 @putout/plugin-remove-useless-type-conversion                    1.0.1                                  npm        
@@ -279,7 +279,7 @@ NAME                                                             VERSION        
 @putout/plugin-simplify-boolean-return                           1.1.0                                  npm        
 @putout/plugin-simplify-logical-expressions                      1.1.0                                  npm        
 @putout/plugin-simplify-ternary                                  2.6.0                                  npm        
-@putout/plugin-simplify-ternary                                  6.1.0                                  npm        
+@putout/plugin-simplify-ternary                                  7.0.0                                  npm        
 @putout/plugin-split-nested-destructuring                        1.1.0                                  npm        
 @putout/plugin-split-nested-destructuring                        3.0.0                                  npm        
 @putout/plugin-split-variable-declarations                       2.1.1                                  npm        
@@ -511,12 +511,12 @@ eastasianwidth                                                   0.2.0          
 edward                                                           13.0.3                                 npm        
 ee-first                                                         1.1.1                                  npm        
 electron-fetch                                                   1.9.1                                  npm        
-electron-to-chromium                                             1.4.623                                npm        
+electron-to-chromium                                             1.4.624                                npm        
 emmet-codemirror                                                 1.1.0                                  npm        
 emoji-regex                                                      10.3.0                                 npm        
 emoji-regex                                                      8.0.0                                  npm        
 emoji-regex                                                      9.2.2                                  npm        
-emulatorjs                                                       1.8.0                                  npm        
+emulatorjs                                                       1.8.1                                  npm        
 encodeurl                                                        1.0.2                                  npm        
 encoding                                                         0.1.13                                 npm        
 end-of-stream                                                    1.4.4                                  npm        
@@ -1358,7 +1358,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                  npm        
 punycode                                                         2.3.1                                  npm        
 putout                                                           24.6.0                                 npm        
-putout                                                           34.7.0                                 npm        
+putout                                                           34.7.3                                 npm        
 pyc                                                              3.11.6-r1                              apk        
 python3                                                          3.11.6-r1                              apk        
 python3-pyc                                                      3.11.6-r1                              apk        
