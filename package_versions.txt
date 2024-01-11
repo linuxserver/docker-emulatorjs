@@ -80,7 +80,7 @@ NAME                                                             VERSION        
 @putout/compare                                                  8.7.0                                  npm        
 @putout/engine-loader                                            13.0.0                                 npm        
 @putout/engine-loader                                            5.1.0                                  npm        
-@putout/engine-parser                                            10.0.4                                 npm        
+@putout/engine-parser                                            10.1.0                                 npm        
 @putout/engine-parser                                            4.10.2                                 npm        
 @putout/engine-processor                                         11.1.1                                 npm        
 @putout/engine-processor                                         4.1.0                                  npm        
@@ -155,6 +155,7 @@ NAME                                                             VERSION        
 @putout/plugin-convert-for-to-for-of                             3.0.0                                  npm        
 @putout/plugin-convert-index-of-to-includes                      1.1.0                                  npm        
 @putout/plugin-convert-index-of-to-includes                      2.0.1                                  npm        
+@putout/plugin-convert-label-to-object                           1.0.2                                  npm        
 @putout/plugin-convert-map-to-for-of                             1.1.0                                  npm        
 @putout/plugin-convert-math-pow                                  4.0.0                                  npm        
 @putout/plugin-convert-mock-require-to-mock-import               2.0.0                                  npm        
@@ -179,7 +180,7 @@ NAME                                                             VERSION        
 @putout/plugin-extract-sequence-expressions                      2.2.0                                  npm        
 @putout/plugin-extract-sequence-expressions                      3.5.0                                  npm        
 @putout/plugin-filesystem                                        3.18.0                                 npm        
-@putout/plugin-for-of                                            4.0.0                                  npm        
+@putout/plugin-for-of                                            4.1.0                                  npm        
 @putout/plugin-github                                            11.0.0                                 npm        
 @putout/plugin-github                                            2.1.1                                  npm        
 @putout/plugin-gitignore                                         3.1.0                                  npm        
@@ -192,7 +193,7 @@ NAME                                                             VERSION        
 @putout/plugin-merge-destructuring-properties                    6.2.1                                  npm        
 @putout/plugin-merge-destructuring-properties                    8.0.0                                  npm        
 @putout/plugin-merge-duplicate-functions                         2.0.0                                  npm        
-@putout/plugin-merge-duplicate-imports                           10.0.0                                 npm        
+@putout/plugin-merge-duplicate-imports                           11.0.0                                 npm        
 @putout/plugin-merge-duplicate-imports                           5.0.0                                  npm        
 @putout/plugin-merge-if-statements                               3.1.1                                  npm        
 @putout/plugin-montag                                            2.0.0                                  npm        
@@ -218,7 +219,7 @@ NAME                                                             VERSION        
 @putout/plugin-remove-constant-conditions                        3.0.1                                  npm        
 @putout/plugin-remove-constant-conditions                        4.0.2                                  npm        
 @putout/plugin-remove-debugger                                   4.0.2                                  npm        
-@putout/plugin-remove-debugger                                   5.0.0                                  npm        
+@putout/plugin-remove-debugger                                   6.0.0                                  npm        
 @putout/plugin-remove-double-negations                           3.1.0                                  npm        
 @putout/plugin-remove-duplicate-case                             1.0.0                                  npm        
 @putout/plugin-remove-duplicate-case                             3.0.0                                  npm        
@@ -235,7 +236,7 @@ NAME                                                             VERSION        
 @putout/plugin-remove-unreferenced-variables                     1.2.0                                  npm        
 @putout/plugin-remove-unreferenced-variables                     3.1.0                                  npm        
 @putout/plugin-remove-unused-expressions                         4.2.0                                  npm        
-@putout/plugin-remove-unused-expressions                         7.0.0                                  npm        
+@putout/plugin-remove-unused-expressions                         8.0.0                                  npm        
 @putout/plugin-remove-unused-for-of-variables                    2.0.0                                  npm        
 @putout/plugin-remove-unused-for-of-variables                    3.0.1                                  npm        
 @putout/plugin-remove-unused-private-fields                      1.2.1                                  npm        
@@ -293,7 +294,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        6.0.0                                  npm        
 @putout/plugin-webpack                                           1.4.0                                  npm        
 @putout/plugin-webpack                                           3.0.0                                  npm        
-@putout/printer                                                  7.4.0                                  npm        
+@putout/printer                                                  8.0.0                                  npm        
 @putout/processor-css                                            3.1.1                                  npm        
 @putout/processor-css                                            8.1.0                                  npm        
 @putout/processor-filesystem                                     3.0.1                                  npm        
@@ -334,7 +335,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm        
 @types/minimist                                                  1.2.5                                  npm        
 @types/ms                                                        0.7.34                                 npm        
-@types/node                                                      20.10.7                                npm        
+@types/node                                                      20.11.0                                npm        
 @types/normalize-package-data                                    2.4.4                                  npm        
 @types/parse-json                                                4.0.2                                  npm        
 @types/responselike                                              1.0.3                                  npm        
@@ -511,7 +512,7 @@ eastasianwidth                                                   0.2.0          
 edward                                                           13.0.3                                 npm        
 ee-first                                                         1.1.1                                  npm        
 electron-fetch                                                   1.9.1                                  npm        
-electron-to-chromium                                             1.4.624                                npm        
+electron-to-chromium                                             1.4.628                                npm        
 emmet-codemirror                                                 1.1.0                                  npm        
 emoji-regex                                                      10.3.0                                 npm        
 emoji-regex                                                      8.0.0                                  npm        
@@ -1358,7 +1359,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                  npm        
 punycode                                                         2.3.1                                  npm        
 putout                                                           24.6.0                                 npm        
-putout                                                           34.7.3                                 npm        
+putout                                                           34.9.1                                 npm        
 pyc                                                              3.11.6-r1                              apk        
 python3                                                          3.11.6-r1                              apk        
 python3-pyc                                                      3.11.6-r1                              apk        
@@ -1480,7 +1481,7 @@ statuses                                                         2.0.1          
 stdlib                                                           go1.16.15                              go-module  
 stdlib                                                           go1.21.3                               go-module  
 stdlib                                                           go1.21.5                               go-module  
-stream-shift                                                     1.0.1                                  npm        
+stream-shift                                                     1.0.2                                  npm        
 stream-to-it                                                     0.2.4                                  npm        
 string-to-stream                                                 3.0.1                                  npm        
 string-width                                                     4.2.3                                  npm        
