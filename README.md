@@ -334,6 +334,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **11.01.24:** - Use Node 16 on x86 image to restore metadata uploads in backend, update psx core to current.
 * **07.01.24:** - Update to use new Mupen64 plus core by default.
 * **06.01.24:** - Update many emulators to fix audio issues and use latest codebases.
 * **29.12.23:** - Rebase to Alpine 3.19, add option to launch without IPFS.

@@ -88,6 +88,7 @@ app_setup_block: |
   * ws
 # changelog
 changelogs:
+  - {date: "11.01.24:", desc: "Use Node 16 on x86 image to restore metadata uploads in backend, update psx core to current."}
   - {date: "07.01.24:", desc: "Update to use new Mupen64 plus core by default."}
   - {date: "06.01.24:", desc: "Update many emulators to fix audio issues and use latest codebases."}
   - {date: "29.12.23:", desc: "Rebase to Alpine 3.19, add option to launch without IPFS."}

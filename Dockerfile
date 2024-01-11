@@ -127,12 +127,15 @@ RUN \
     flac \
     kubo \
     nginx \
-    nodejs \
     p7zip \
     python3 \
     sdl2 && \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
     mame-tools && \
+  echo "**** use pinned node ****" && \
+  curl -L \
+    https://unofficial-builds.nodejs.org/download/release/v16.20.2/node-v16.20.2-linux-x64-musl.tar.gz \
+    | tar -xz --strip-components=1 -C / && \
   mkdir /data && \
   echo "**** cleanup ****" && \
   rm -rf \
