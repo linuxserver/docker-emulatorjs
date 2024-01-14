@@ -1464,7 +1464,7 @@ postcss-safe-parser                                              7.0.0          
 postcss-selector-parser                                          6.0.10                                 npm        
 postcss-selector-parser                                          6.0.15                                 npm        
 postcss-value-parser                                             4.2.0                                  npm        
-prettier                                                         3.2.1                                  npm        
+prettier                                                         3.2.2                                  npm        
 prettier-linter-helpers                                          1.0.0                                  npm        
 proc-log                                                         2.0.1                                  npm        
 process-nextick-args                                             2.0.1                                  npm        
@@ -1575,7 +1575,7 @@ semver                                                           7.5.4          
 send                                                             0.18.0                                 npm        
 serve-static                                                     1.15.0                                 npm        
 set-blocking                                                     2.0.0                                  npm        
-set-function-length                                              1.1.1                                  npm        
+set-function-length                                              1.2.0                                  npm        
 setimmediate                                                     1.0.5                                  npm        
 setprototypeof                                                   1.2.0                                  npm        
 sha.js                                                           2.4.11                                 npm        
