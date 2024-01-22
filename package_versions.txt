@@ -48,7 +48,7 @@ NAME                                                             VERSION        
 @jridgewell/resolve-uri                                          3.1.1                                  npm        
 @jridgewell/set-array                                            1.1.2                                  npm        
 @jridgewell/sourcemap-codec                                      1.4.15                                 npm        
-@jridgewell/trace-mapping                                        0.3.21                                 npm        
+@jridgewell/trace-mapping                                        0.3.22                                 npm        
 @my-scope/package-a                                              0.0.0                                  npm        
 @my-scope/package-b                                              0.0.0                                  npm        
 @nodelib/fs.scandir                                              2.1.5                                  npm        
@@ -103,6 +103,7 @@ NAME                                                             VERSION        
 @putout/engine-parser                                            4.10.2                                 npm        
 @putout/engine-processor                                         11.1.1                                 npm        
 @putout/engine-processor                                         4.1.0                                  npm        
+@putout/engine-reporter                                          1.0.0                                  npm        
 @putout/engine-runner                                            12.6.0                                 npm        
 @putout/engine-runner                                            20.4.1                                 npm        
 @putout/eslint                                                   3.1.0                                  npm        
@@ -314,7 +315,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        6.0.0                                  npm        
 @putout/plugin-webpack                                           1.4.0                                  npm        
 @putout/plugin-webpack                                           3.0.0                                  npm        
-@putout/printer                                                  8.0.0                                  npm        
+@putout/printer                                                  8.0.1                                  npm        
 @putout/processor-css                                            3.1.1                                  npm        
 @putout/processor-css                                            8.1.0                                  npm        
 @putout/processor-filesystem                                     3.1.0                                  npm        
@@ -561,12 +562,12 @@ eastasianwidth                                                   0.2.0          
 edward                                                           13.0.3                                 npm        
 ee-first                                                         1.1.1                                  npm        
 electron-fetch                                                   1.9.1                                  npm        
-electron-to-chromium                                             1.4.637                                npm        
+electron-to-chromium                                             1.4.640                                npm        
 emmet-codemirror                                                 1.1.0                                  npm        
 emoji-regex                                                      10.3.0                                 npm        
 emoji-regex                                                      8.0.0                                  npm        
 emoji-regex                                                      9.2.2                                  npm        
-emulatorjs                                                       1.8.2                                  npm        
+emulatorjs                                                       1.8.3                                  npm        
 encodeurl                                                        1.0.2                                  npm        
 encoding                                                         0.1.13                                 npm        
 end-of-stream                                                    1.4.4                                  npm        
@@ -1198,7 +1199,7 @@ libattr                                                          2.5.1-r5       
 libbsd                                                           0.11.7-r3                              apk        
 libbz2                                                           1.0.8-r6                               apk        
 libc-utils                                                       0.7.2-r5                               apk        
-libcrypto3                                                       3.1.4-r3                               apk        
+libcrypto3                                                       3.1.4-r4                               apk        
 libcurl                                                          8.5.0-r0                               apk        
 libexpat                                                         2.5.0-r2                               apk        
 libffi                                                           3.4.4-r3                               apk        
@@ -1223,7 +1224,7 @@ libnpmversion                                                    3.0.7          
 libogg                                                           1.3.5-r5                               apk        
 libpanelw                                                        6.4_p20231125-r0                       apk        
 libproc2                                                         4.0.4-r0                               apk        
-libssl3                                                          3.1.4-r3                               apk        
+libssl3                                                          3.1.4-r4                               apk        
 libstdc++                                                        13.2.1_git20231014-r0                  apk        
 libunistring                                                     1.1-r2                                 apk        
 lie                                                              3.3.0                                  npm        
@@ -1483,7 +1484,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                  npm        
 punycode                                                         2.3.1                                  npm        
 putout                                                           24.6.0                                 npm        
-putout                                                           34.11.0                                npm        
+putout                                                           35.0.0                                 npm        
 pyc                                                              3.11.6-r1                              apk        
 python3                                                          3.11.6-r1                              apk        
 python3-pyc                                                      3.11.6-r1                              apk        
@@ -1636,7 +1637,7 @@ strip-json-comments                                              3.1.1          
 strtok3                                                          6.3.0                                  npm        
 style-search                                                     0.1.0                                  npm        
 stylelint                                                        14.16.1                                npm        
-stylelint                                                        16.1.0                                 npm        
+stylelint                                                        16.2.0                                 npm        
 stylelint-config-recommended                                     14.0.0                                 npm        
 stylelint-config-recommended                                     6.0.0                                  npm        
 stylelint-config-standard                                        24.0.0                                 npm        
