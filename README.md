@@ -76,11 +76,11 @@ Mobile browsers will function, just keep in mind compatibility will be reduced e
 
 **This container (outside of the profile functionality) only generates a static set of files that can be hosted on any web provider even object storage. Eveyrthing runs in the clients browser and there are no dependencies on this container. To extract/copy this website it is at the path `/emulatorjs/frontend` inside the container. If you are happy with the catalouge you have created and no longer want to run stuff like the IPFS backend or want to upload these files to some other hosting provider you can simply copy the contents of that directory and kill off this container. This container can also be started without IPFS once you collection is set using the environment variable `-e DISABLE_IPFS=true`.**
 
-Mounting in existing rom directories can be achieved by pointing to the default folder structure, IE lets say you would like to mount your NES library:
+**Mounting in existing rom directories Read Only can be achieved by using a special root path `/roms`, For example for NES:**
 
-`-v /path/to/nes/roms:/data/nes/roms`
+`-v /path/to/nes/roms:/roms/nes:ro`
 
-The folder names are:
+The folder names for systems are:
 * 3do
 * arcade
 * atari2600
@@ -334,6 +334,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.01.24:** - Add logic to symlink out RO rom directories to support upgrades.
 * **14.01.24:** - Update remaining cores for melonds and yabause threaded to fix audio issues.
 * **11.01.24:** - Use Node 16 on x86 image to restore metadata uploads in backend, update psx core to current.
 * **07.01.24:** - Update to use new Mupen64 plus core by default.

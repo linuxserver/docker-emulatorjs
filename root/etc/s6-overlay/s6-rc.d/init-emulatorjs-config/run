@@ -40,13 +40,12 @@ cp /defaults/mime.types /etc/nginx/mime.types
 # nginx body cache
 lsiown -R abc:root /var/lib/nginx
 
-# allow users to mount in rom dirs
+# allow users to mount in ro rom dirs
 DIRS='3do atari2600 atari7800 colecovision doom gba lynx n64 nes odyssey2 psx segaCD segaMD segaSaturn snes vb ws arcade atari5200 gb gbc jaguar msx nds ngp pce sega32x segaGG segaMS segaSG vectrex'
 for DIR in ${DIRS}; do
-    if [[ -d "/data/${DIR}" ]]; then
-        lsiown abc:abc "/data/${DIR}"
-    fi
-    if [[ -d "/data/${DIR}/roms" ]]; then
-        lsiown abc:abc "/data/${DIR}/roms"
+    if [[ -d "/roms/${DIR}" ]] && [[ ! -L "/data/${DIR}/roms" ]]; then
+        mkdir -p /data/${DIR}
+        ln -s /roms/${DIR} /data/${DIR}/roms
+        lsiown abc:abc /data/${DIR}
     fi
 done
