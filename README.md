@@ -334,6 +334,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.01.24:** - Pin node back on aarch64 as well for compatibility.
 * **23.01.24:** - Add logic to symlink out RO rom directories to support upgrades.
 * **14.01.24:** - Update remaining cores for melonds and yabause threaded to fix audio issues.
 * **11.01.24:** - Use Node 16 on x86 image to restore metadata uploads in backend, update psx core to current.

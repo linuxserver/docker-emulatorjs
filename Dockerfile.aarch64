@@ -131,13 +131,17 @@ RUN \
     flac \
     kubo \
     nginx \
-    nodejs \
     p7zip \
     python3 \
     sdl2 && \
   mkdir /data && \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
     mame-tools && \
+  echo "**** use pinned node ****" && \
+  curl -L \
+    https://github.com/thelamer/node-stash/raw/master/v16.20.2/aarch64/node -o \
+    /bin/node && \
+  chmod +x /bin/node && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
