@@ -132,11 +132,12 @@ RUN \
     sdl2 && \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
     mame-tools && \
+  mkdir /data && \
   echo "**** use pinned node ****" && \
   curl -L \
-    https://unofficial-builds.nodejs.org/download/release/v16.20.2/node-v16.20.2-linux-x64-musl.tar.gz \
-    | tar -xz --strip-components=1 -C / && \
-  mkdir /data && \
+    https://github.com/thelamer/node-stash/raw/master/v16.20.2/x86_64/node -o \
+    /bin/node && \
+  chmod +x /bin/node && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*
