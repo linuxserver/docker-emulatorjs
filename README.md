@@ -84,6 +84,7 @@ The folder names for systems are:
 * 3do
 * arcade
 * atari2600
+* atari5200
 * atari7800
 * colecovision
 * doom
@@ -334,6 +335,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.01.24:** - Add atari5200 support.
 * **24.01.24:** - Pin node back on aarch64 as well for compatibility.
 * **23.01.24:** - Add logic to symlink out RO rom directories to support upgrades.
 * **14.01.24:** - Update remaining cores for melonds and yabause threaded to fix audio issues.

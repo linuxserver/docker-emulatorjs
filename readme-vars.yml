@@ -59,6 +59,7 @@ app_setup_block: |
   * 3do
   * arcade
   * atari2600
+  * atari5200
   * atari7800
   * colecovision
   * doom
@@ -89,6 +90,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - {date: "27.01.24:", desc: "Add atari5200 support."}
   - {date: "24.01.24:", desc: "Pin node back on aarch64 as well for compatibility."}
   - {date: "23.01.24:", desc: "Add logic to symlink out RO rom directories to support upgrades."}
   - {date: "14.01.24:", desc: "Update remaining cores for melonds and yabause threaded to fix audio issues."}

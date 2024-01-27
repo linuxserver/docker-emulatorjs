@@ -41,7 +41,7 @@ cp /defaults/mime.types /etc/nginx/mime.types
 lsiown -R abc:root /var/lib/nginx
 
 # allow users to mount in ro rom dirs
-DIRS='3do atari2600 atari7800 colecovision doom gba lynx n64 nes odyssey2 psx segaCD segaMD segaSaturn snes vb ws arcade atari5200 gb gbc jaguar msx nds ngp pce sega32x segaGG segaMS segaSG vectrex'
+DIRS='3do atari2600 atari5200 atari7800 colecovision doom gba lynx n64 nes odyssey2 psx segaCD segaMD segaSaturn snes vb ws arcade atari5200 gb gbc jaguar msx nds ngp pce sega32x segaGG segaMS segaSG vectrex'
 for DIR in ${DIRS}; do
     if [[ -d "/roms/${DIR}" ]] && [[ ! -L "/data/${DIR}/roms" ]]; then
         mkdir -p /data/${DIR}
