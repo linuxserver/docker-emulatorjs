@@ -335,6 +335,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.01.24:** - Skip IPFS config if DISABLE_IPFS is set as env variable.
 * **27.01.24:** - Add atari5200 support.
 * **24.01.24:** - Pin node back on aarch64 as well for compatibility.
 * **23.01.24:** - Add logic to symlink out RO rom directories to support upgrades.
