@@ -90,6 +90,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - {date: "28.01.24:", desc: "Skip IPFS config if DISABLE_IPFS is set as env variable."}
   - {date: "27.01.24:", desc: "Add atari5200 support."}
   - {date: "24.01.24:", desc: "Pin node back on aarch64 as well for compatibility."}
   - {date: "23.01.24:", desc: "Add logic to symlink out RO rom directories to support upgrades."}
