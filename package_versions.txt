@@ -337,7 +337,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm        
 @types/minimist                                                  1.2.5                                  npm        
 @types/ms                                                        0.7.34                                 npm        
-@types/node                                                      20.11.8                                npm        
+@types/node                                                      20.11.10                               npm        
 @types/normalize-package-data                                    2.4.4                                  npm        
 @types/parse-json                                                4.0.2                                  npm        
 @types/responselike                                              1.0.3                                  npm        
@@ -420,7 +420,7 @@ call-bind                                                        1.0.5          
 callsites                                                        3.1.0                                  npm        
 camelcase                                                        5.3.1                                  npm        
 camelcase-keys                                                   6.2.2                                  npm        
-caniuse-lite                                                     1.0.30001580                           npm        
+caniuse-lite                                                     1.0.30001581                           npm        
 catharsis                                                        0.9.0                                  npm        
 cborg                                                            1.10.2                                 npm        
 chalk                                                            2.4.2                                  npm        
@@ -1205,7 +1205,7 @@ micromark-factory-title                                          2.0.0          
 micromark-factory-whitespace                                     1.1.0                                  npm        
 micromark-factory-whitespace                                     2.0.0                                  npm        
 micromark-util-character                                         1.2.0                                  npm        
-micromark-util-character                                         2.0.1                                  npm        
+micromark-util-character                                         2.1.0                                  npm        
 micromark-util-chunked                                           1.1.0                                  npm        
 micromark-util-chunked                                           2.0.0                                  npm        
 micromark-util-classify-character                                1.1.0                                  npm        
