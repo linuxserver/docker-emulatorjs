@@ -5,16 +5,20 @@
 lsiown abc:abc \
     /data
 
-# ipfs migrate check on startup
-if [[ -d "/data/.ipfs" ]]; then
-    echo "[ipfs-upgrade] Checking if fs-repo needs to be upgraded (this may take some time)"
-    HOME=/data s6-setuidgid abc /usr/bin/fs-repo-migrations -y -to 15
-fi
+# check if ipfs is disabled
+if [ -z ${DISABLE_IPFS+x} ]; then
 
-# ipfs config
-if [[ ! -d "/data/.ipfs" ]]; then
-    HOME=/data ipfs init --profile lowpower
-    lsiown -R abc:abc /data/.ipfs
+    # ipfs migrate check on startup
+    if [[ -d "/data/.ipfs" ]]; then
+        echo "[ipfs-upgrade] Checking if fs-repo needs to be upgraded (this may take some time)"
+        HOME=/data s6-setuidgid abc /usr/bin/fs-repo-migrations -y -to 15
+    fi
+
+    # ipfs config
+    if [[ ! -d "/data/.ipfs" ]]; then
+        HOME=/data ipfs init --profile lowpower
+        lsiown -R abc:abc /data/.ipfs
+    fi
 fi
 
 # link user data to frontend
@@ -26,11 +30,11 @@ fi
 if [[ ! -d '/config/profile/default' ]]; then
     mkdir -p /config/profile/default
     echo "input_menu_toggle_gamepad_combo = 3
-system_directory = /home/web_user/retroarch/system/" > /config/profile/default/retroarch.cfg
+system_directory = /home/web_user/retroarch/system/" >/config/profile/default/retroarch.cfg
     lsiown -R abc:abc /config/profile
 fi
 if [[ ! -f '/config/profile/profile.json' ]]; then
-    echo '{}' > /config/profile/profile.json
+    echo '{}' >/config/profile/profile.json
     lsiown -R abc:abc /config/profile
 fi
 
@@ -44,8 +48,8 @@ lsiown -R abc:root /var/lib/nginx
 DIRS='3do atari2600 atari5200 atari7800 colecovision doom gba lynx n64 nes odyssey2 psx segaCD segaMD segaSaturn snes vb ws arcade atari5200 gb gbc jaguar msx nds ngp pce sega32x segaGG segaMS segaSG vectrex'
 for DIR in ${DIRS}; do
     if [[ -d "/roms/${DIR}" ]] && [[ ! -L "/data/${DIR}/roms" ]]; then
-        mkdir -p /data/${DIR}
-        ln -s /roms/${DIR} /data/${DIR}/roms
-        lsiown abc:abc /data/${DIR}
+        mkdir -p "/data/${DIR}"
+        ln -s "/roms/${DIR}" "/data/${DIR}/roms"
+        lsiown abc:abc "/data/${DIR}"
     fi
 done
