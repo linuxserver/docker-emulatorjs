@@ -323,8 +323,8 @@ NAME                                                             VERSION        
 @types/cors                                                      2.8.17                                 npm        
 @types/debug                                                     4.1.12                                 npm        
 @types/estree                                                    1.0.5                                  npm        
-@types/estree-jsx                                                1.0.3                                  npm        
-@types/hast                                                      2.3.9                                  npm        
+@types/estree-jsx                                                1.0.4                                  npm        
+@types/hast                                                      2.3.10                                 npm        
 @types/http-cache-semantics                                      4.0.4                                  npm        
 @types/keyv                                                      3.1.4                                  npm        
 @types/linkify-it                                                3.0.2                                  npm        
@@ -336,7 +336,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm        
 @types/minimist                                                  1.2.5                                  npm        
 @types/ms                                                        0.7.34                                 npm        
-@types/node                                                      20.11.11                               npm        
+@types/node                                                      20.11.13                               npm        
 @types/normalize-package-data                                    2.4.4                                  npm        
 @types/parse-json                                                4.0.2                                  npm        
 @types/responselike                                              1.0.3                                  npm        
@@ -512,12 +512,12 @@ eastasianwidth                                                   0.2.0          
 edward                                                           13.0.3                                 npm        
 ee-first                                                         1.1.1                                  npm        
 electron-fetch                                                   1.9.1                                  npm        
-electron-to-chromium                                             1.4.651                                npm        
+electron-to-chromium                                             1.4.652                                npm        
 emmet-codemirror                                                 1.1.0                                  npm        
 emoji-regex                                                      10.3.0                                 npm        
 emoji-regex                                                      8.0.0                                  npm        
 emoji-regex                                                      9.2.2                                  npm        
-emulatorjs                                                       1.8.6                                  npm        
+emulatorjs                                                       1.8.7                                  npm        
 encodeurl                                                        1.0.2                                  npm        
 encoding                                                         0.1.13                                 npm        
 end-of-stream                                                    1.4.4                                  npm        
@@ -666,9 +666,9 @@ github.com/ipfs/bbloom                                           v0.0.4         
 github.com/ipfs/boxo                                             v0.15.0                                go-module  
 github.com/ipfs/fs-repo-migrations/fs-repo-10-to-11              (devel)                                go-module  
 github.com/ipfs/fs-repo-migrations/fs-repo-11-to-12              (devel)                                go-module  
-github.com/ipfs/fs-repo-migrations/fs-repo-12-to-13              v0.0.0-20230925132154-673d838ff8bc     go-module  
-github.com/ipfs/fs-repo-migrations/fs-repo-13-to-14              v0.0.0-20230925132154-673d838ff8bc     go-module  
-github.com/ipfs/fs-repo-migrations/fs-repo-14-to-15              v0.0.0-20230925132154-673d838ff8bc     go-module  
+github.com/ipfs/fs-repo-migrations/fs-repo-12-to-13              v0.0.0-20240131173452-0dbdc6f2282c     go-module  
+github.com/ipfs/fs-repo-migrations/fs-repo-13-to-14              v0.0.0-20240131173452-0dbdc6f2282c     go-module  
+github.com/ipfs/fs-repo-migrations/fs-repo-14-to-15              v0.0.0-20240131173452-0dbdc6f2282c     go-module  
 github.com/ipfs/fs-repo-migrations/fs-repo-9-to-10               (devel)                                go-module  
 github.com/ipfs/fs-repo-migrations/fs-repo-migrations            (devel)                                go-module  
 github.com/ipfs/fs-repo-migrations/tools                         v0.0.0-20210323144402-297a63449538     go-module  
