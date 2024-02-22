@@ -1466,7 +1466,7 @@ socket-file                                                      5.1.1          
 socket.io                                                        3.1.2                                  npm        
 socket.io                                                        4.7.4                                  npm        
 socket.io-adapter                                                2.1.0                                  npm        
-socket.io-adapter                                                2.5.3                                  npm        
+socket.io-adapter                                                2.5.4                                  npm        
 socket.io-client                                                 4.7.4                                  npm        
 socket.io-parser                                                 4.0.5                                  npm        
 socket.io-parser                                                 4.2.4                                  npm        
