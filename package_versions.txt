@@ -4,7 +4,7 @@ NAME                                                             VERSION        
 @ampproject/remapping                                            2.2.1                                  npm        
 @babel/code-frame                                                7.23.5                                 npm        
 @babel/compat-data                                               7.23.5                                 npm        
-@babel/core                                                      7.23.9                                 npm        
+@babel/core                                                      7.24.0                                 npm        
 @babel/generator                                                 7.23.6                                 npm        
 @babel/helper-compilation-targets                                7.23.6                                 npm        
 @babel/helper-environment-visitor                                7.22.20                                npm        
@@ -17,14 +17,14 @@ NAME                                                             VERSION        
 @babel/helper-string-parser                                      7.23.4                                 npm        
 @babel/helper-validator-identifier                               7.22.20                                npm        
 @babel/helper-validator-option                                   7.23.5                                 npm        
-@babel/helpers                                                   7.23.9                                 npm        
+@babel/helpers                                                   7.24.0                                 npm        
 @babel/highlight                                                 7.23.4                                 npm        
 @babel/parser                                                    7.18.13                                npm        
-@babel/parser                                                    7.23.9                                 npm        
-@babel/runtime                                                   7.23.9                                 npm        
-@babel/template                                                  7.23.9                                 npm        
-@babel/traverse                                                  7.23.9                                 npm        
-@babel/types                                                     7.23.9                                 npm        
+@babel/parser                                                    7.24.0                                 npm        
+@babel/runtime                                                   7.24.0                                 npm        
+@babel/template                                                  7.24.0                                 npm        
+@babel/traverse                                                  7.24.0                                 npm        
+@babel/types                                                     7.24.0                                 npm        
 @cloudcmd/dropbox                                                4.0.6                                  npm        
 @cloudcmd/fileop                                                 5.0.4                                  npm        
 @cloudcmd/formatify                                              1.0.4                                  npm        
@@ -41,11 +41,11 @@ NAME                                                             VERSION        
 @ipld/dag-cbor                                                   6.0.15                                 npm        
 @ipld/dag-pb                                                     2.1.18                                 npm        
 @isaacs/cliui                                                    8.0.2                                  npm        
-@jridgewell/gen-mapping                                          0.3.3                                  npm        
+@jridgewell/gen-mapping                                          0.3.4                                  npm        
 @jridgewell/resolve-uri                                          3.1.2                                  npm        
-@jridgewell/set-array                                            1.1.2                                  npm        
+@jridgewell/set-array                                            1.2.1                                  npm        
 @jridgewell/sourcemap-codec                                      1.4.15                                 npm        
-@jridgewell/trace-mapping                                        0.3.22                                 npm        
+@jridgewell/trace-mapping                                        0.3.23                                 npm        
 @my-scope/package-a                                              0.0.0                                  npm        
 @my-scope/package-b                                              0.0.0                                  npm        
 @nodelib/fs.scandir                                              2.1.5                                  npm        
@@ -62,7 +62,7 @@ NAME                                                             VERSION        
 @protobufjs/path                                                 1.1.2                                  npm        
 @protobufjs/pool                                                 1.1.0                                  npm        
 @protobufjs/utf8                                                 1.1.0                                  npm        
-@putout/babel                                                    2.2.0                                  npm        
+@putout/babel                                                    2.3.0                                  npm        
 @putout/cli-cache                                                1.1.0                                  npm        
 @putout/cli-cache                                                3.0.1                                  npm        
 @putout/cli-choose                                               2.0.0                                  npm        
@@ -298,7 +298,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        6.0.0                                  npm        
 @putout/plugin-webpack                                           1.4.0                                  npm        
 @putout/plugin-webpack                                           3.0.0                                  npm        
-@putout/printer                                                  8.6.1                                  npm        
+@putout/printer                                                  8.7.0                                  npm        
 @putout/processor-css                                            3.1.1                                  npm        
 @putout/processor-css                                            9.0.0                                  npm        
 @putout/processor-filesystem                                     4.0.0                                  npm        
@@ -326,7 +326,7 @@ NAME                                                             VERSION        
 @types/cors                                                      2.8.17                                 npm        
 @types/debug                                                     4.1.12                                 npm        
 @types/estree                                                    1.0.5                                  npm        
-@types/estree-jsx                                                1.0.4                                  npm        
+@types/estree-jsx                                                1.0.5                                  npm        
 @types/hast                                                      2.3.10                                 npm        
 @types/http-cache-semantics                                      4.0.4                                  npm        
 @types/keyv                                                      3.1.4                                  npm        
@@ -339,7 +339,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm        
 @types/minimist                                                  1.2.5                                  npm        
 @types/ms                                                        0.7.34                                 npm        
-@types/node                                                      20.11.19                               npm        
+@types/node                                                      20.11.22                               npm        
 @types/normalize-package-data                                    2.4.4                                  npm        
 @types/parse-json                                                4.0.2                                  npm        
 @types/responselike                                              1.0.3                                  npm        
@@ -422,7 +422,7 @@ call-bind                                                        1.0.7          
 callsites                                                        3.1.0                                  npm        
 camelcase                                                        5.3.1                                  npm        
 camelcase-keys                                                   6.2.2                                  npm        
-caniuse-lite                                                     1.0.30001589                           npm        
+caniuse-lite                                                     1.0.30001591                           npm        
 catharsis                                                        0.9.0                                  npm        
 cborg                                                            1.10.2                                 npm        
 chalk                                                            2.4.2                                  npm        
@@ -515,7 +515,7 @@ eastasianwidth                                                   0.2.0          
 edward                                                           13.0.3                                 npm        
 ee-first                                                         1.1.1                                  npm        
 electron-fetch                                                   1.9.1                                  npm        
-electron-to-chromium                                             1.4.679                                npm        
+electron-to-chromium                                             1.4.687                                npm        
 emmet-codemirror                                                 1.1.0                                  npm        
 emoji-regex                                                      10.3.0                                 npm        
 emoji-regex                                                      8.0.0                                  npm        
@@ -1289,7 +1289,7 @@ normalize-path                                                   3.0.0          
 normalize-url                                                    6.1.0                                  npm        
 object-assign                                                    4.1.1                                  npm        
 object-inspect                                                   1.13.1                                 npm        
-object-is                                                        1.1.5                                  npm        
+object-is                                                        1.1.6                                  npm        
 object-keys                                                      1.1.1                                  npm        
 object.assign                                                    4.1.5                                  npm        
 object.omit                                                      3.0.0                                  npm        
@@ -1612,7 +1612,7 @@ xz-libs                                                          5.4.5-r0       
 yallist                                                          3.1.1                                  npm        
 yallist                                                          4.0.0                                  npm        
 yaml                                                             1.10.2                                 npm        
-yaml                                                             2.3.4                                  npm        
+yaml                                                             2.4.0                                  npm        
 yargs-parser                                                     20.2.9                                 npm        
 yargs-parser                                                     21.1.1                                 npm        
 yauzl                                                            2.10.0                                 npm        
