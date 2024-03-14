@@ -32,9 +32,9 @@ NAME                                                             VERSION        
 @cloudcmd/read-files-sync                                        2.0.2                                  npm                          
 @cloudcmd/rename-files                                           2.0.0                                  npm                          
 @cloudcmd/sortify                                                2.0.1                                  npm                          
-@csstools/css-parser-algorithms                                  2.6.0                                  npm                          
-@csstools/css-tokenizer                                          2.2.3                                  npm                          
-@csstools/media-query-list-parser                                2.1.8                                  npm                          
+@csstools/css-parser-algorithms                                  2.6.1                                  npm                          
+@csstools/css-tokenizer                                          2.2.4                                  npm                          
+@csstools/media-query-list-parser                                2.1.9                                  npm                          
 @csstools/selector-specificity                                   2.2.0                                  npm                          
 @csstools/selector-specificity                                   3.0.2                                  npm        (+1 duplicate)    
 @iocmd/hold-up                                                   1.1.2                                  npm                          
@@ -173,14 +173,14 @@ NAME                                                             VERSION        
 @putout/plugin-declare-imports-first                             2.1.0                                  npm        (+1 duplicate)    
 @putout/plugin-declare-undefined-variables                       6.8.1                                  npm                          
 @putout/plugin-eslint                                            2.1.0                                  npm                          
-@putout/plugin-eslint                                            7.2.0                                  npm        (+1 duplicate)    
+@putout/plugin-eslint                                            8.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-extract-object-properties                         7.0.0                                  npm                          
 @putout/plugin-extract-object-properties                         9.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-extract-sequence-expressions                      2.2.0                                  npm                          
 @putout/plugin-extract-sequence-expressions                      3.5.0                                  npm        (+1 duplicate)    
 @putout/plugin-filesystem                                        4.2.0                                  npm                          
 @putout/plugin-for-of                                            4.1.0                                  npm        (+1 duplicate)    
-@putout/plugin-github                                            12.0.0                                 npm        (+1 duplicate)    
+@putout/plugin-github                                            12.0.2                                 npm        (+1 duplicate)    
 @putout/plugin-github                                            2.1.1                                  npm                          
 @putout/plugin-gitignore                                         3.1.0                                  npm                          
 @putout/plugin-gitignore                                         4.0.0                                  npm        (+1 duplicate)    
@@ -336,7 +336,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm                          
 @types/minimist                                                  1.2.5                                  npm                          
 @types/ms                                                        0.7.34                                 npm                          
-@types/node                                                      20.11.26                               npm                          
+@types/node                                                      20.11.27                               npm                          
 @types/normalize-package-data                                    2.4.4                                  npm                          
 @types/parse-json                                                4.0.2                                  npm                          
 @types/responselike                                              1.0.3                                  npm                          
@@ -508,7 +508,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                 npm                          
 ee-first                                                         1.1.1                                  npm                          
 electron-fetch                                                   1.9.1                                  npm                          
-electron-to-chromium                                             1.4.701                                npm                          
+electron-to-chromium                                             1.4.704                                npm                          
 emmet-codemirror                                                 1.1.0                                  npm                          
 emoji-regex                                                      10.3.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
@@ -1333,7 +1333,7 @@ postcss-media-query-parser                                       0.2.3          
 postcss-resolve-nested-selector                                  0.1.1                                  npm                          
 postcss-safe-parser                                              6.0.0                                  npm                          
 postcss-safe-parser                                              7.0.0                                  npm        (+1 duplicate)    
-postcss-selector-parser                                          6.0.15                                 npm                          
+postcss-selector-parser                                          6.0.16                                 npm                          
 postcss-value-parser                                             4.2.0                                  npm                          
 prettier                                                         3.2.5                                  npm                          
 prettier-linter-helpers                                          1.0.0                                  npm                          
@@ -1347,7 +1347,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                  npm                          
 punycode                                                         2.3.1                                  npm                          
 putout                                                           24.6.0                                 npm                          
-putout                                                           35.7.2                                 npm        (+1 duplicate)    
+putout                                                           35.7.3                                 npm        (+1 duplicate)    
 pyc                                                              3.11.8-r0                              apk                          
 python3                                                          3.11.8-r0                              apk                          
 python3-pyc                                                      3.11.8-r0                              apk                          
