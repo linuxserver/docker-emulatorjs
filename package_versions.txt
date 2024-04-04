@@ -3,9 +3,9 @@ NAME                                                             VERSION        
 @achingbrain/node-fetch                                          2.6.7                                  npm                          
 @ampproject/remapping                                            2.3.0                                  npm                          
 @babel/code-frame                                                7.24.2                                 npm                          
-@babel/compat-data                                               7.24.1                                 npm                          
-@babel/core                                                      7.24.3                                 npm                          
-@babel/generator                                                 7.24.1                                 npm                          
+@babel/compat-data                                               7.24.4                                 npm                          
+@babel/core                                                      7.24.4                                 npm                          
+@babel/generator                                                 7.24.4                                 npm                          
 @babel/helper-compilation-targets                                7.23.6                                 npm                          
 @babel/helper-environment-visitor                                7.22.20                                npm                          
 @babel/helper-function-name                                      7.23.0                                 npm                          
@@ -17,11 +17,11 @@ NAME                                                             VERSION        
 @babel/helper-string-parser                                      7.24.1                                 npm                          
 @babel/helper-validator-identifier                               7.22.20                                npm                          
 @babel/helper-validator-option                                   7.23.5                                 npm                          
-@babel/helpers                                                   7.24.1                                 npm                          
+@babel/helpers                                                   7.24.4                                 npm                          
 @babel/highlight                                                 7.24.2                                 npm                          
 @babel/parser                                                    7.18.13                                npm                          
-@babel/parser                                                    7.24.1                                 npm                          
-@babel/runtime                                                   7.24.1                                 npm                          
+@babel/parser                                                    7.24.4                                 npm                          
+@babel/runtime                                                   7.24.4                                 npm                          
 @babel/template                                                  7.24.0                                 npm                          
 @babel/traverse                                                  7.24.1                                 npm                          
 @babel/types                                                     7.24.0                                 npm                          
@@ -36,7 +36,7 @@ NAME                                                             VERSION        
 @csstools/css-tokenizer                                          2.2.4                                  npm                          
 @csstools/media-query-list-parser                                2.1.9                                  npm                          
 @csstools/selector-specificity                                   2.2.0                                  npm                          
-@csstools/selector-specificity                                   3.0.2                                  npm        (+1 duplicate)    
+@csstools/selector-specificity                                   3.0.3                                  npm        (+1 duplicate)    
 @dual-bundle/import-meta-resolve                                 4.0.0                                  npm                          
 @iocmd/hold-up                                                   1.1.2                                  npm                          
 @ipld/dag-cbor                                                   6.0.15                                 npm                          
@@ -79,7 +79,7 @@ NAME                                                             VERSION        
 @putout/compare                                                  8.7.0                                  npm                          
 @putout/engine-loader                                            13.0.0                                 npm        (+1 duplicate)    
 @putout/engine-loader                                            5.1.0                                  npm                          
-@putout/engine-parser                                            10.1.0                                 npm        (+2 duplicates)   
+@putout/engine-parser                                            10.2.0                                 npm        (+2 duplicates)   
 @putout/engine-parser                                            4.10.2                                 npm                          
 @putout/engine-processor                                         11.2.0                                 npm        (+1 duplicate)    
 @putout/engine-processor                                         4.1.0                                  npm                          
@@ -296,7 +296,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        6.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-webpack                                           1.4.0                                  npm                          
 @putout/plugin-webpack                                           3.0.0                                  npm        (+1 duplicate)    
-@putout/printer                                                  8.8.1                                  npm                          
+@putout/printer                                                  8.10.0                                 npm                          
 @putout/processor-css                                            3.1.1                                  npm                          
 @putout/processor-css                                            9.0.0                                  npm        (+1 duplicate)    
 @putout/processor-filesystem                                     4.0.0                                  npm                          
@@ -337,7 +337,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm                          
 @types/minimist                                                  1.2.5                                  npm                          
 @types/ms                                                        0.7.34                                 npm                          
-@types/node                                                      20.12.2                                npm                          
+@types/node                                                      20.12.4                                npm                          
 @types/normalize-package-data                                    2.4.4                                  npm                          
 @types/parse-json                                                4.0.2                                  npm                          
 @types/responselike                                              1.0.3                                  npm                          
@@ -418,7 +418,7 @@ call-bind                                                        1.0.7          
 callsites                                                        3.1.0                                  npm                          
 camelcase                                                        5.3.1                                  npm                          
 camelcase-keys                                                   6.2.2                                  npm                          
-caniuse-lite                                                     1.0.30001600                           npm                          
+caniuse-lite                                                     1.0.30001605                           npm                          
 catharsis                                                        0.9.0                                  npm                          
 cborg                                                            1.10.2                                 npm                          
 chalk                                                            2.4.2                                  npm                          
@@ -509,7 +509,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                 npm                          
 ee-first                                                         1.1.1                                  npm                          
 electron-fetch                                                   1.9.1                                  npm                          
-electron-to-chromium                                             1.4.722                                npm                          
+electron-to-chromium                                             1.4.726                                npm                          
 emmet-codemirror                                                 1.1.0                                  npm                          
 emoji-regex                                                      10.3.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
