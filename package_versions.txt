@@ -173,12 +173,12 @@ NAME                                                             VERSION        
 @putout/plugin-convert-to-arrow-function                         4.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-convert-typeof-to-is-type                         2.0.1                                  npm                          
 @putout/plugin-coverage                                          1.0.0                                  npm        (+1 duplicate)    
-@putout/plugin-declare                                           3.1.0                                  npm        (+1 duplicate)    
+@putout/plugin-declare                                           4.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-declare-before-reference                          3.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-declare-imports-first                             2.1.0                                  npm        (+1 duplicate)    
 @putout/plugin-declare-undefined-variables                       6.8.1                                  npm                          
 @putout/plugin-eslint                                            2.1.0                                  npm                          
-@putout/plugin-eslint                                            8.6.0                                  npm        (+1 duplicate)    
+@putout/plugin-eslint                                            8.8.0                                  npm        (+1 duplicate)    
 @putout/plugin-extract-object-properties                         7.0.0                                  npm                          
 @putout/plugin-extract-object-properties                         9.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-extract-sequence-expressions                      2.2.0                                  npm                          
@@ -211,7 +211,7 @@ NAME                                                             VERSION        
 @putout/plugin-promises                                          14.1.0                                 npm        (+1 duplicate)    
 @putout/plugin-promises                                          7.0.0                                  npm                          
 @putout/plugin-putout                                            10.2.0                                 npm                          
-@putout/plugin-putout                                            19.3.1                                 npm        (+1 duplicate)    
+@putout/plugin-putout                                            19.4.0                                 npm        (+1 duplicate)    
 @putout/plugin-putout-config                                     2.0.0                                  npm                          
 @putout/plugin-putout-config                                     5.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-regexp                                            4.1.0                                  npm                          
@@ -295,12 +295,12 @@ NAME                                                             VERSION        
 @putout/plugin-tape                                              14.2.0                                 npm        (+1 duplicate)    
 @putout/plugin-tape                                              8.0.0                                  npm                          
 @putout/plugin-try-catch                                         3.0.0                                  npm        (+1 duplicate)    
-@putout/plugin-types                                             3.0.0                                  npm        (+1 duplicate)    
+@putout/plugin-types                                             4.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-typescript                                        1.0.1                                  npm                          
 @putout/plugin-typescript                                        7.3.0                                  npm        (+1 duplicate)    
 @putout/plugin-webpack                                           1.4.0                                  npm                          
 @putout/plugin-webpack                                           3.0.0                                  npm        (+1 duplicate)    
-@putout/printer                                                  8.17.0                                 npm                          
+@putout/printer                                                  8.20.1                                 npm                          
 @putout/processor-css                                            3.1.1                                  npm                          
 @putout/processor-css                                            9.0.0                                  npm        (+1 duplicate)    
 @putout/processor-filesystem                                     4.0.0                                  npm                          
@@ -420,7 +420,7 @@ call-bind                                                        1.0.7          
 callsites                                                        3.1.0                                  npm                          
 camelcase                                                        5.3.1                                  npm                          
 camelcase-keys                                                   6.2.2                                  npm                          
-caniuse-lite                                                     1.0.30001611                           npm                          
+caniuse-lite                                                     1.0.30001612                           npm                          
 catharsis                                                        0.9.0                                  npm                          
 cborg                                                            1.10.2                                 npm                          
 chalk                                                            2.4.2                                  npm                          
@@ -470,7 +470,7 @@ cosmiconfig                                                      7.1.0          
 cosmiconfig                                                      9.0.0                                  npm        (+1 duplicate)    
 crc-32                                                           1.2.2                                  npm                          
 criton                                                           2.0.0                                  npm                          
-css-functions-list                                               3.2.1                                  npm                          
+css-functions-list                                               3.2.2                                  npm                          
 css-tree                                                         2.3.1                                  npm                          
 cssesc                                                           3.0.0                                  npm                          
 curl                                                             8.5.0-r0                               apk                          
@@ -509,7 +509,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                 npm                          
 ee-first                                                         1.1.1                                  npm                          
 electron-fetch                                                   1.9.1                                  npm                          
-electron-to-chromium                                             1.4.740                                npm                          
+electron-to-chromium                                             1.4.748                                npm                          
 emmet-codemirror                                                 1.1.0                                  npm                          
 emoji-regex                                                      10.3.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
@@ -1182,7 +1182,7 @@ methods                                                          1.1.2          
 micromark                                                        3.2.0                                  npm        (+1 duplicate)    
 micromark                                                        4.0.0                                  npm        (+1 duplicate)    
 micromark-core-commonmark                                        1.1.0                                  npm        (+1 duplicate)    
-micromark-core-commonmark                                        2.0.0                                  npm        (+1 duplicate)    
+micromark-core-commonmark                                        2.0.1                                  npm        (+1 duplicate)    
 micromark-factory-destination                                    1.1.0                                  npm        (+1 duplicate)    
 micromark-factory-destination                                    2.0.0                                  npm        (+1 duplicate)    
 micromark-factory-label                                          1.1.0                                  npm        (+1 duplicate)    
@@ -1339,7 +1339,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                  npm                          
 punycode                                                         2.3.1                                  npm                          
 putout                                                           24.6.0                                 npm                          
-putout                                                           35.15.0                                npm        (+1 duplicate)    
+putout                                                           35.16.0                                npm        (+1 duplicate)    
 pyc                                                              3.11.9-r0                              apk                          
 python3                                                          3.11.9-r0                              apk                          
 python3-pyc                                                      3.11.9-r0                              apk                          
@@ -1471,7 +1471,7 @@ strip-json-comments                                              3.1.1          
 strtok3                                                          6.3.0                                  npm                          
 style-search                                                     0.1.0                                  npm                          
 stylelint                                                        14.16.1                                npm                          
-stylelint                                                        16.3.1                                 npm        (+1 duplicate)    
+stylelint                                                        16.4.0                                 npm        (+1 duplicate)    
 stylelint-config-recommended                                     14.0.0                                 npm        (+1 duplicate)    
 stylelint-config-recommended                                     6.0.0                                  npm                          
 stylelint-config-standard                                        24.0.0                                 npm                          
