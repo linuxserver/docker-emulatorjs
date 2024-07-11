@@ -32,9 +32,9 @@ NAME                                                             VERSION        
 @cloudcmd/read-files-sync                                        2.0.2                                  npm                          
 @cloudcmd/rename-files                                           2.0.0                                  npm                          
 @cloudcmd/sortify                                                2.0.1                                  npm                          
-@csstools/css-parser-algorithms                                  2.7.0                                  npm                          
-@csstools/css-tokenizer                                          2.3.3                                  npm                          
-@csstools/media-query-list-parser                                2.1.12                                 npm                          
+@csstools/css-parser-algorithms                                  2.7.1                                  npm                          
+@csstools/css-tokenizer                                          2.4.1                                  npm                          
+@csstools/media-query-list-parser                                2.1.13                                 npm                          
 @csstools/selector-specificity                                   2.2.0                                  npm                          
 @csstools/selector-specificity                                   3.1.1                                  npm        (+1 duplicate)    
 @dual-bundle/import-meta-resolve                                 4.1.0                                  npm                          
@@ -44,7 +44,7 @@ NAME                                                             VERSION        
 @jridgewell/gen-mapping                                          0.3.5                                  npm                          
 @jridgewell/resolve-uri                                          3.1.2                                  npm                          
 @jridgewell/set-array                                            1.2.1                                  npm                          
-@jridgewell/sourcemap-codec                                      1.4.15                                 npm                          
+@jridgewell/sourcemap-codec                                      1.5.0                                  npm                          
 @jridgewell/trace-mapping                                        0.3.25                                 npm                          
 @my-scope/package-a                                              0.0.0                                  npm                          
 @my-scope/package-b                                              0.0.0                                  npm                          
@@ -348,7 +348,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm                          
 @types/minimist                                                  1.2.5                                  npm                          
 @types/ms                                                        0.7.34                                 npm                          
-@types/node                                                      20.14.9                                npm                          
+@types/node                                                      20.14.10                               npm                          
 @types/normalize-package-data                                    2.4.4                                  npm                          
 @types/parse-json                                                4.0.2                                  npm                          
 @types/responselike                                              1.0.3                                  npm                          
@@ -409,7 +409,7 @@ braces                                                           3.0.3          
 brotli-libs                                                      1.1.0-r1                               apk                          
 browser-readablestream-to-it                                     1.0.3                                  npm                          
 browserify-zlib                                                  0.1.4                                  npm                          
-browserslist                                                     4.23.1                                 npm                          
+browserslist                                                     4.23.2                                 npm                          
 buffer                                                           5.7.1                                  npm                          
 buffer                                                           6.0.3                                  npm        (+3 duplicates)   
 buffer-crc32                                                     0.2.13                                 npm                          
@@ -429,7 +429,7 @@ call-bind                                                        1.0.7          
 callsites                                                        3.1.0                                  npm                          
 camelcase                                                        5.3.1                                  npm                          
 camelcase-keys                                                   6.2.2                                  npm                          
-caniuse-lite                                                     1.0.30001640                           npm                          
+caniuse-lite                                                     1.0.30001641                           npm                          
 catatonit                                                        0.2.0-r0                               apk                          
 catharsis                                                        0.9.0                                  npm                          
 cborg                                                            1.10.2                                 npm                          
@@ -519,7 +519,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                 npm                          
 ee-first                                                         1.1.1                                  npm                          
 electron-fetch                                                   1.9.1                                  npm                          
-electron-to-chromium                                             1.4.816                                npm                          
+electron-to-chromium                                             1.4.825                                npm                          
 emmet-codemirror                                                 1.1.0                                  npm                          
 emoji-regex                                                      10.3.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
@@ -1074,7 +1074,7 @@ isexe                                                            2.0.0          
 iso-constants                                                    0.1.2                                  npm                          
 iso-url                                                          1.2.1                                  npm                          
 isobject                                                         3.0.1                                  npm                          
-isomorphic-git                                                   1.26.5                                 npm                          
+isomorphic-git                                                   1.27.1                                 npm                          
 it-all                                                           1.0.6                                  npm                          
 it-concat                                                        2.0.0                                  npm                          
 it-drain                                                         1.0.5                                  npm                          
