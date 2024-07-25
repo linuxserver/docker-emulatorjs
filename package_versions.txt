@@ -75,6 +75,7 @@ NAME                                                             VERSION        
 @putout/cli-ruler                                                3.1.0                                  npm        (+1 duplicate)    
 @putout/cli-staged                                               1.1.0                                  npm                          
 @putout/cli-validate-args                                        1.1.1                                  npm                          
+@putout/cli-validate-args                                        2.0.0                                  npm        (+1 duplicate)    
 @putout/compare                                                  14.5.0                                 npm        (+1 duplicate)    
 @putout/compare                                                  8.7.0                                  npm                          
 @putout/engine-loader                                            13.1.1                                 npm        (+1 duplicate)    
@@ -281,7 +282,8 @@ NAME                                                             VERSION        
 @putout/plugin-remove-useless-template-expressions               2.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-remove-useless-type-conversion                    1.0.1                                  npm                          
 @putout/plugin-remove-useless-typeof                             1.0.1                                  npm                          
-@putout/plugin-remove-useless-variables                          11.1.1                                 npm        (+1 duplicate)    
+@putout/plugin-remove-useless-variables                          11.1.1                                 npm                          
+@putout/plugin-remove-useless-variables                          12.0.0                                 npm        (+1 duplicate)    
 @putout/plugin-remove-useless-variables                          6.3.0                                  npm                          
 @putout/plugin-reuse-duplicate-init                              3.0.0                                  npm                          
 @putout/plugin-reuse-duplicate-init                              5.0.0                                  npm        (+1 duplicate)    
@@ -349,7 +351,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm                          
 @types/minimist                                                  1.2.5                                  npm                          
 @types/ms                                                        0.7.34                                 npm                          
-@types/node                                                      20.14.11                               npm                          
+@types/node                                                      20.14.12                               npm                          
 @types/normalize-package-data                                    2.4.4                                  npm                          
 @types/parse-json                                                4.0.2                                  npm                          
 @types/responselike                                              1.0.3                                  npm                          
@@ -430,7 +432,7 @@ call-bind                                                        1.0.7          
 callsites                                                        3.1.0                                  npm                          
 camelcase                                                        5.3.1                                  npm                          
 camelcase-keys                                                   6.2.2                                  npm                          
-caniuse-lite                                                     1.0.30001642                           npm                          
+caniuse-lite                                                     1.0.30001643                           npm                          
 catatonit                                                        0.2.0-r0                               apk                          
 catharsis                                                        0.9.0                                  npm                          
 cborg                                                            1.10.2                                 npm                          
@@ -520,7 +522,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                 npm                          
 ee-first                                                         1.1.1                                  npm                          
 electron-fetch                                                   1.9.1                                  npm                          
-electron-to-chromium                                             1.4.829                                npm                          
+electron-to-chromium                                             1.5.1                                  npm                          
 emmet-codemirror                                                 1.1.0                                  npm                          
 emoji-regex                                                      10.3.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
@@ -1115,7 +1117,7 @@ just-camel-case                                                  4.0.2          
 just-camel-case                                                  6.2.0                                  npm                          
 just-kebab-case                                                  1.1.0                                  npm                          
 just-kebab-case                                                  3.1.1                                  npm                          
-just-kebab-case                                                  4.2.0                                  npm        (+1 duplicate)    
+just-kebab-case                                                  4.2.0                                  npm        (+2 duplicates)   
 just-snake-case                                                  1.2.1                                  npm                          
 just-snake-case                                                  3.2.0                                  npm                          
 keyv                                                             4.5.4                                  npm                          
@@ -1282,7 +1284,7 @@ nginx                                                            1.24.0-r16     
 nicki                                                            6.1.1                                  npm                          
 node                                                             16.20.2                                binary                       
 node-fetch                                                       2.7.0                                  npm                          
-node-releases                                                    2.0.17                                 npm                          
+node-releases                                                    2.0.18                                 npm                          
 nomine                                                           4.0.0                                  npm                          
 normalize-package-data                                           2.5.0                                  npm                          
 normalize-package-data                                           3.0.3                                  npm                          
@@ -1338,9 +1340,9 @@ pkg-dir                                                          4.2.0          
 pkg-dir                                                          7.0.0                                  npm        (+1 duplicate)    
 pluralize                                                        8.0.0                                  npm                          
 ponse                                                            6.0.0                                  npm                          
-postcss                                                          8.4.39                                 npm                          
+postcss                                                          8.4.40                                 npm                          
 postcss-media-query-parser                                       0.2.3                                  npm                          
-postcss-resolve-nested-selector                                  0.1.1                                  npm                          
+postcss-resolve-nested-selector                                  0.1.4                                  npm                          
 postcss-safe-parser                                              6.0.0                                  npm                          
 postcss-safe-parser                                              7.0.0                                  npm        (+1 duplicate)    
 postcss-selector-parser                                          6.1.1                                  npm                          
@@ -1357,7 +1359,7 @@ pump                                                             3.0.0          
 pumpify                                                          1.5.1                                  npm                          
 putout                                                           24.6.0                                 npm                          
 putout                                                           35.37.1                                npm                          
-putout                                                           36.0.0                                 npm        (+1 duplicate)    
+putout                                                           36.0.3                                 npm        (+1 duplicate)    
 pyc                                                              3.11.9-r0                              apk                          
 python3                                                          3.11.9-r0                              apk                          
 python3-pyc                                                      3.11.9-r0                              apk                          
@@ -1620,7 +1622,7 @@ xz-libs                                                          5.4.5-r0       
 yallist                                                          3.1.1                                  npm                          
 yallist                                                          4.0.0                                  npm                          
 yaml                                                             1.10.2                                 npm                          
-yaml                                                             2.4.5                                  npm        (+1 duplicate)    
+yaml                                                             2.5.0                                  npm        (+1 duplicate)    
 yargs-parser                                                     20.2.9                                 npm        (+2 duplicates)   
 yargs-parser                                                     21.1.1                                 npm                          
 yauzl                                                            2.10.0                                 npm                          
