@@ -303,7 +303,7 @@ NAME                                                             VERSION        
 @putout/plugin-typescript                                        7.4.0                                  npm        (+1 duplicate)    
 @putout/plugin-webpack                                           1.4.0                                  npm                          
 @putout/plugin-webpack                                           3.0.0                                  npm        (+1 duplicate)    
-@putout/printer                                                  9.9.0                                  npm                          
+@putout/printer                                                  9.11.0                                 npm                          
 @putout/processor-css                                            3.1.1                                  npm                          
 @putout/processor-css                                            9.0.0                                  npm        (+1 duplicate)    
 @putout/processor-filesystem                                     4.0.0                                  npm                          
@@ -346,7 +346,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm                          
 @types/minimist                                                  1.2.5                                  npm                          
 @types/ms                                                        0.7.34                                 npm                          
-@types/node                                                      22.0.2                                 npm                          
+@types/node                                                      22.1.0                                 npm                          
 @types/normalize-package-data                                    2.4.4                                  npm                          
 @types/parse-json                                                4.0.2                                  npm                          
 @types/responselike                                              1.0.3                                  npm                          
@@ -407,7 +407,7 @@ braces                                                           3.0.3          
 brotli-libs                                                      1.1.0-r1                               apk                          
 browser-readablestream-to-it                                     1.0.3                                  npm                          
 browserify-zlib                                                  0.1.4                                  npm                          
-browserslist                                                     4.23.2                                 npm                          
+browserslist                                                     4.23.3                                 npm                          
 buffer                                                           5.7.1                                  npm                          
 buffer                                                           6.0.3                                  npm        (+3 duplicates)   
 buffer-crc32                                                     0.2.13                                 npm                          
@@ -427,7 +427,7 @@ call-bind                                                        1.0.7          
 callsites                                                        3.1.0                                  npm                          
 camelcase                                                        5.3.1                                  npm                          
 camelcase-keys                                                   6.2.2                                  npm                          
-caniuse-lite                                                     1.0.30001646                           npm                          
+caniuse-lite                                                     1.0.30001651                           npm                          
 catatonit                                                        0.2.0-r0                               apk                          
 catharsis                                                        0.9.0                                  npm                          
 cborg                                                            1.10.2                                 npm                          
@@ -517,7 +517,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                 npm                          
 ee-first                                                         1.1.1                                  npm                          
 electron-fetch                                                   1.9.1                                  npm                          
-electron-to-chromium                                             1.5.4                                  npm                          
+electron-to-chromium                                             1.5.5                                  npm                          
 emmet-codemirror                                                 1.1.0                                  npm                          
 emoji-regex                                                      10.3.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
@@ -674,9 +674,9 @@ github.com/ipfs/bbloom                                           v0.0.4         
 github.com/ipfs/boxo                                             v0.15.0                                go-module                    
 github.com/ipfs/fs-repo-migrations/fs-repo-10-to-11              (devel)                                go-module                    
 github.com/ipfs/fs-repo-migrations/fs-repo-11-to-12              (devel)                                go-module                    
-github.com/ipfs/fs-repo-migrations/fs-repo-12-to-13              v0.0.0-20240131173452-0dbdc6f2282c     go-module                    
-github.com/ipfs/fs-repo-migrations/fs-repo-13-to-14              v0.0.0-20240131173452-0dbdc6f2282c     go-module                    
-github.com/ipfs/fs-repo-migrations/fs-repo-14-to-15              v0.0.0-20240131173452-0dbdc6f2282c     go-module                    
+github.com/ipfs/fs-repo-migrations/fs-repo-12-to-13              v0.0.0-20240802185513-e4be9f68ec42     go-module                    
+github.com/ipfs/fs-repo-migrations/fs-repo-13-to-14              v0.0.0-20240802185513-e4be9f68ec42     go-module                    
+github.com/ipfs/fs-repo-migrations/fs-repo-14-to-15              v0.0.0-20240802185513-e4be9f68ec42     go-module                    
 github.com/ipfs/fs-repo-migrations/fs-repo-9-to-10               (devel)                                go-module                    
 github.com/ipfs/fs-repo-migrations/fs-repo-migrations            (devel)                                go-module                    
 github.com/ipfs/fs-repo-migrations/tools                         v0.0.0-20210323144402-297a63449538     go-module  (+1 duplicate)    
@@ -1335,7 +1335,7 @@ pkg-dir                                                          4.2.0          
 pkg-dir                                                          7.0.0                                  npm        (+1 duplicate)    
 pluralize                                                        8.0.0                                  npm                          
 ponse                                                            6.0.0                                  npm                          
-postcss                                                          8.4.40                                 npm                          
+postcss                                                          8.4.41                                 npm                          
 postcss-media-query-parser                                       0.2.3                                  npm                          
 postcss-resolve-nested-selector                                  0.1.4                                  npm                          
 postcss-safe-parser                                              6.0.0                                  npm                          
@@ -1557,7 +1557,7 @@ uint8arrays                                                      3.1.1          
 unbzip2-stream                                                   1.4.3                                  npm                          
 unc-path-regex                                                   0.1.2                                  npm                          
 underscore                                                       1.13.4                                 npm                          
-undici-types                                                     6.11.1                                 npm                          
+undici-types                                                     6.13.0                                 npm                          
 unicorn-magic                                                    0.1.0                                  npm                          
 unified                                                          10.1.2                                 npm                          
 unified                                                          11.0.5                                 npm        (+14 duplicates)  
