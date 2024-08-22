@@ -28,11 +28,11 @@ NAME                                                             VERSION        
 @cloudcmd/read-files-sync                                        2.0.2                                  npm                          
 @cloudcmd/rename-files                                           2.0.0                                  npm                          
 @cloudcmd/sortify                                                2.0.1                                  npm                          
-@csstools/css-parser-algorithms                                  2.7.1                                  npm                          
-@csstools/css-tokenizer                                          2.4.1                                  npm                          
-@csstools/media-query-list-parser                                2.1.13                                 npm                          
+@csstools/css-parser-algorithms                                  3.0.1                                  npm                          
+@csstools/css-tokenizer                                          3.0.1                                  npm                          
+@csstools/media-query-list-parser                                3.0.1                                  npm                          
 @csstools/selector-specificity                                   2.2.0                                  npm                          
-@csstools/selector-specificity                                   3.1.1                                  npm        (+1 duplicate)    
+@csstools/selector-specificity                                   4.0.0                                  npm        (+1 duplicate)    
 @dual-bundle/import-meta-resolve                                 4.1.0                                  npm                          
 @iocmd/hold-up                                                   1.1.2                                  npm                          
 @ipld/dag-cbor                                                   6.0.15                                 npm                          
@@ -177,7 +177,7 @@ NAME                                                             VERSION        
 @putout/plugin-declare-imports-first                             2.1.0                                  npm        (+1 duplicate)    
 @putout/plugin-declare-undefined-variables                       6.8.1                                  npm                          
 @putout/plugin-eslint                                            2.1.0                                  npm                          
-@putout/plugin-eslint                                            8.13.0                                 npm        (+1 duplicate)    
+@putout/plugin-eslint                                            9.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-extract-object-properties                         7.0.0                                  npm                          
 @putout/plugin-extract-object-properties                         9.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-extract-sequence-expressions                      2.2.0                                  npm                          
@@ -278,7 +278,7 @@ NAME                                                             VERSION        
 @putout/plugin-remove-useless-template-expressions               2.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-remove-useless-type-conversion                    1.0.1                                  npm                          
 @putout/plugin-remove-useless-typeof                             1.0.1                                  npm                          
-@putout/plugin-remove-useless-variables                          12.0.0                                 npm        (+1 duplicate)    
+@putout/plugin-remove-useless-variables                          12.2.0                                 npm        (+1 duplicate)    
 @putout/plugin-remove-useless-variables                          6.3.0                                  npm                          
 @putout/plugin-reuse-duplicate-init                              3.0.0                                  npm                          
 @putout/plugin-reuse-duplicate-init                              5.0.0                                  npm        (+1 duplicate)    
@@ -295,9 +295,10 @@ NAME                                                             VERSION        
 @putout/plugin-split-variable-declarations                       2.1.1                                  npm                          
 @putout/plugin-split-variable-declarations                       3.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-strict-mode                                       3.0.0                                  npm                          
-@putout/plugin-tape                                              14.2.0                                 npm        (+1 duplicate)    
+@putout/plugin-tape                                              15.1.0                                 npm        (+1 duplicate)    
 @putout/plugin-tape                                              8.0.0                                  npm                          
 @putout/plugin-try-catch                                         3.0.0                                  npm                          
+@putout/plugin-try-catch                                         4.0.0                                  npm        (+1 duplicate)    
 @putout/plugin-types                                             4.1.0                                  npm        (+1 duplicate)    
 @putout/plugin-typescript                                        1.0.1                                  npm                          
 @putout/plugin-typescript                                        7.4.0                                  npm        (+1 duplicate)    
@@ -346,7 +347,7 @@ NAME                                                             VERSION        
 @types/minimatch                                                 3.0.5                                  npm                          
 @types/minimist                                                  1.2.5                                  npm                          
 @types/ms                                                        0.7.34                                 npm                          
-@types/node                                                      22.3.0                                 npm                          
+@types/node                                                      22.5.0                                 npm                          
 @types/normalize-package-data                                    2.4.4                                  npm                          
 @types/parse-json                                                4.0.2                                  npm                          
 @types/responselike                                              1.0.3                                  npm                          
@@ -517,7 +518,7 @@ dword                                                            13.0.6         
 edward                                                           13.0.3                                 npm                          
 ee-first                                                         1.1.1                                  npm                          
 electron-fetch                                                   1.9.1                                  npm                          
-electron-to-chromium                                             1.5.7                                  npm                          
+electron-to-chromium                                             1.5.13                                 npm                          
 emmet-codemirror                                                 1.1.0                                  npm                          
 emoji-regex                                                      10.3.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
@@ -1047,7 +1048,7 @@ ipfs-utils                                                       8.1.6          
 is-arrayish                                                      0.2.1                                  npm                          
 is-buffer                                                        2.0.5                                  npm                          
 is-bzip2                                                         1.0.0                                  npm                          
-is-core-module                                                   2.15.0                                 npm                          
+is-core-module                                                   2.15.1                                 npm                          
 is-deflate                                                       1.0.0                                  npm                          
 is-docker                                                        2.2.1                                  npm                          
 is-electron                                                      2.2.2                                  npm                          
@@ -1353,7 +1354,7 @@ pump                                                             2.0.1          
 pump                                                             3.0.0                                  npm                          
 pumpify                                                          1.5.1                                  npm                          
 putout                                                           24.6.0                                 npm                          
-putout                                                           36.0.3                                 npm        (+1 duplicate)    
+putout                                                           36.0.6                                 npm        (+1 duplicate)    
 pyc                                                              3.11.9-r0                              apk                          
 python3                                                          3.11.9-r0                              apk                          
 python3-pyc                                                      3.11.9-r0                              apk                          
@@ -1483,7 +1484,7 @@ spawnify                                                         7.0.2          
 spdx-correct                                                     3.2.0                                  npm                          
 spdx-exceptions                                                  2.5.0                                  npm                          
 spdx-expression-parse                                            3.0.1                                  npm                          
-spdx-license-ids                                                 3.0.18                                 npm                          
+spdx-license-ids                                                 3.0.20                                 npm                          
 sqlite-libs                                                      3.44.2-r0                              apk                          
 squad                                                            3.0.0                                  npm                          
 ssl_client                                                       1.36.1-r19                             apk                          
@@ -1504,7 +1505,7 @@ strip-json-comments                                              3.1.1          
 strtok3                                                          6.3.0                                  npm                          
 style-search                                                     0.1.0                                  npm                          
 stylelint                                                        14.16.1                                npm                          
-stylelint                                                        16.8.1                                 npm        (+1 duplicate)    
+stylelint                                                        16.8.2                                 npm        (+1 duplicate)    
 stylelint-config-recommended                                     14.0.1                                 npm        (+1 duplicate)    
 stylelint-config-recommended                                     6.0.0                                  npm                          
 stylelint-config-standard                                        24.0.0                                 npm                          
@@ -1514,7 +1515,7 @@ superstat                                                        2.0.3          
 supports-color                                                   5.5.0                                  npm                          
 supports-color                                                   7.2.0                                  npm                          
 supports-hyperlinks                                              2.3.0                                  npm                          
-supports-hyperlinks                                              3.0.0                                  npm        (+1 duplicate)    
+supports-hyperlinks                                              3.1.0                                  npm        (+1 duplicate)    
 supports-preserve-symlinks-flag                                  1.0.0                                  npm                          
 svg-tags                                                         1.0.0                                  npm                          
 table                                                            6.8.2                                  npm                          
@@ -1557,7 +1558,7 @@ uint8arrays                                                      3.1.1          
 unbzip2-stream                                                   1.4.3                                  npm                          
 unc-path-regex                                                   0.1.2                                  npm                          
 underscore                                                       1.13.4                                 npm                          
-undici-types                                                     6.18.2                                 npm                          
+undici-types                                                     6.19.8                                 npm                          
 unicorn-magic                                                    0.1.0                                  npm                          
 unified                                                          10.1.2                                 npm                          
 unified                                                          11.0.5                                 npm        (+14 duplicates)  
