@@ -536,7 +536,7 @@ emmet-codemirror                                                 1.1.0          
 emoji-regex                                                      10.4.0                                 npm        (+1 duplicate)    
 emoji-regex                                                      8.0.0                                  npm                          
 emoji-regex                                                      9.2.2                                  npm                          
-emulatorjs                                                       1.9.0                                  npm                          
+emulatorjs                                                       1.9.2                                  npm                          
 encodeurl                                                        1.0.2                                  npm                          
 encodeurl                                                        2.0.0                                  npm                          
 encoding                                                         0.1.13                                 npm                          
