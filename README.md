@@ -126,6 +126,7 @@ The folder names for systems are:
 
 **For Xbox users please click the select button a couple times after launching a game to ensure the B button does not trigger a "back" action in the browser. (official name "view button" it is the two small squares) Exiting the controller mode and back to browser controls can be triggered by holding the start button for 3 seconds. (official name "menu button" the three lines)**
 
+ 
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -339,10 +340,10 @@ docker build \
   -t lscr.io/linuxserver/emulatorjs:latest .
 ```
 
-The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
+The ARM variants can be built on x86_64 hardware and vice versa using `lscr.io/linuxserver/qemu-static`
 
 ```bash
-docker run --rm --privileged multiarch/qemu-user-static:register --reset
+docker run --rm --privileged lscr.io/linuxserver/qemu-static --reset
 ```
 
 Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
