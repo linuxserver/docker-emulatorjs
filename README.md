@@ -126,10 +126,12 @@ The folder names for systems are:
 
 **For Xbox users please click the select button a couple times after launching a game to ensure the B button does not trigger a "back" action in the browser. (official name "view button" it is the two small squares) Exiting the controller mode and back to browser controls can be triggered by holding the start button for 3 seconds. (official name "menu button" the three lines)**
 
- 
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
+
+>[!NOTE]
+>Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
@@ -178,8 +180,8 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 3000` | Rom/artwork management interface, used to generate/manage config files and download artwork |
-| `-p 80` | Emulation frontend containing static web files used to browse and launch games |
+| `-p 3000:3000` | Rom/artwork management interface, used to generate/manage config files and download artwork |
+| `-p 80:80` | Emulation frontend containing static web files used to browse and launch games |
 | `-p 4001` | IPFS peering port, if you want to participate in the P2P network to distribute frontend artwork please forward this to the Internet |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
