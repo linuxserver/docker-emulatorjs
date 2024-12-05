@@ -33,74 +33,56 @@ opt_param_env_vars:
   - {env_var: "SUBFOLDER", env_value: "/", desc: "Specify a subfolder for reverse proxies IE '/FOLDER/'"}
 # application setup block
 app_setup_block_enabled: true
-app_setup_block: |
-  The Backend can be accessed at:
-
-  * http://yourhost:3000/
-
-  The first thing you will need to do is click to download the default art/configs from this interface, this will setup a skeleton directory in your `/data` mount. From there add roms to the respective `roms` directories and follow the on screen instructions to add them to your web frontend running on port 80.
-
-  **I understand there may be some confusion as to project naming, but when this project (linuxserver/emulatorjs) started it was meant to be a simple frontend for self hosting folks to use the at the time deobfuscated code of [https://www.emulatorjs.com/](https://www.emulatorjs.com/) that [ethanaobrien](https://github.com/ethanaobrien) was working on. Since then [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS) has evolved into it's own amazing project based on [Libretro](https://github.com/libretro) cores that have been highly optimized to function for web. This project mostly contains custom built libretro cores found [here](https://github.com/linuxserver/libretro-cores). So in general despite the naming of this project and the logo this is just a docker container with a web based backend for generating a useable self hosted emulation website and is in no way affiliated with [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS).**
-
-  **This container (outside of the profile functionality) only generates a static set of files that can be hosted on any web provider even object storage. Everything runs in the client's browser and there are no dependencies on this container. To extract/copy this website it is at the path `/emulatorjs/frontend` inside the container. If you are happy with the catalouge you have created and no longer want to run stuff like the IPFS backend or want to upload these files to some other hosting provider you can simply copy the contents of that directory and kill off this container. This container can also be started without IPFS once you collection is set using the environment variable `-e DISABLE_IPFS=true`.**
-
-  ### Read Only Rom Mounts
-
-  **Mounting in existing rom directories Read Only can be achieved by using a special root path `/roms`, For example for NES:**
-
-  `-v /path/to/nes/roms:/roms/nes:ro`
-
-  The folder names for systems are:
-  * 3do
-  * arcade
-  * atari2600
-  * atari5200
-  * atari7800
-  * colecovision
-  * doom
-  * gb
-  * gba
-  * gbc
-  * jaguar
-  * lynx
-  * msx
-  * n64
-  * nds
-  * nes
-  * ngp
-  * odyssey2
-  * pce
-  * psx
-  * sega32x
-  * segaCD
-  * segaGG
-  * segaMD
-  * segaMS
-  * segaSaturn
-  * segaSG
-  * snes
-  * vb
-  * vectrex
-  * ws
-
-  ### Compatible and Tested Browsers 
-
-  **Chromium Based Browsers**- This is the golden standard whether desktop or on mobile (Android) Chrome/Chromium/Brave/Edge should always be used. They have the best performance when it comes to WebAssembly.
-
-  **Firefox**- This will work (at reduced performance though) without tested controller support.
-
-  **Safari iOS**- Safari performs well and has controller support though in recent updates the amount of ram available to a single tab (~265MB) makes it impossible to run n64 emulation or anything CD based. Do not use [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview) applications like Chrome or Firefox on iOS they will not be detected properly in the client software. Your best bet in iOS is to add the web page to your home screen from Safari and launch from there to get a full screen interface.
-
-  **Edge Xbox Series X/S**- This also performs well and was the basis of this project though recent console updates have knocked the ram available to a single tab from 1GB to 128MB making it impossible to run CD based games or n64.
-
-  ### Navigation Basics
-
-  **Retroarch Menu**- The Retroarch menu can be accessed using F1 on keyboard, start/select/R1/L1 at the same time on controller, or pressing the button in the top left in touch mode.
-
-  **Fast Scrolling**- Items in the menu can be scrolled by letter by using PgUp/PgDn on the keyboard or the R1/L1 buttons on controller. In touch mode scrolling can be sped up by touching and dragging (while holding) either up or down.
-
-  **For Xbox users please click the select button a couple times after launching a game to ensure the B button does not trigger a "back" action in the browser. (official name "view button" it is the two small squares) Exiting the controller mode and back to browser controls can be triggered by holding the start button for 3 seconds. (official name "menu button" the three lines)**
-
+app_setup_block: "The Backend can be accessed at:\n\n* http://yourhost:3000/\n\nThe first thing you will need to do is click to download the default art/configs from this interface, this will setup a skeleton directory in your `/data` mount. From there add roms to the respective `roms` directories and follow the on screen instructions to add them to your web frontend running on port 80.\n\n**I understand there may be some confusion as to project naming, but when this project (linuxserver/emulatorjs) started it was meant to be a simple frontend for self hosting folks to use the at the time deobfuscated code of [https://www.emulatorjs.com/](https://www.emulatorjs.com/) that [ethanaobrien](https://github.com/ethanaobrien) was working on. Since then [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS) has evolved into it's own amazing project based on [Libretro](https://github.com/libretro) cores that have been highly optimized to function for web. This project mostly contains custom built libretro cores found [here](https://github.com/linuxserver/libretro-cores). So in general despite the naming of this project and the logo this is just a docker container with a web based backend for generating a useable self hosted emulation website and is in no way affiliated with [EmulatorJS](https://github.com/EmulatorJS/EmulatorJS).**\n\n**This container (outside of the profile functionality) only generates a static set of files that can be hosted on any web provider even object storage. Everything runs in the client's browser and there are no dependencies on this container. To extract/copy this website it is at the path `/emulatorjs/frontend` inside the container. If you are happy with the catalouge you have created and no longer want to run stuff like the IPFS backend or want to upload these files to some other hosting provider you can simply copy the contents of that directory and kill off this container. This container can also be started without IPFS once you collection is set using the environment variable `-e DISABLE_IPFS=true`.**\n\n### Read Only Rom Mounts\n\n**Mounting in existing rom directories Read Only can be achieved by using a special root path `/roms`, For example for NES:**\n\n`-v /path/to/nes/roms:/roms/nes:ro`\n\nThe folder names for systems are:\n* 3do\n* arcade\n* atari2600\n* atari5200\n* atari7800\n* colecovision\n* doom\n* gb\n* gba\n* gbc\n* jaguar\n* lynx\n* msx\n* n64\n* nds\n* nes\n* ngp\n* odyssey2\n* pce\n* psx\n* sega32x\n* segaCD\n* segaGG\n* segaMD\n* segaMS\n* segaSaturn\n* segaSG\n* snes\n* vb\n* vectrex\n* ws\n\n### Compatible and Tested Browsers \n\n**Chromium Based Browsers**- This is the golden standard whether desktop or on mobile (Android) Chrome/Chromium/Brave/Edge should always be used. They have the best performance when it comes to WebAssembly.\n\n**Firefox**- This will work (at reduced performance though) without tested controller support.\n\n**Safari iOS**- Safari performs well and has controller support though in recent updates the amount of ram available to a single tab (~265MB) makes it impossible to run n64 emulation or anything CD based. Do not use [WKWebView](https://developer.apple.com/documentation/webkit/wkwebview) applications like Chrome or Firefox on iOS they will not be detected properly in the client software. Your best bet in iOS is to add the web page to your home screen from Safari and launch from there to get a full screen interface.\n\n**Edge Xbox Series X/S**- This also performs well and was the basis of this project though recent console updates have knocked the ram available to a single tab from 1GB to 128MB making it impossible to run CD based games or n64.\n\n### Navigation Basics\n\n**Retroarch Menu**- The Retroarch menu can be accessed using F1 on keyboard, start/select/R1/L1 at the same time on controller, or pressing the button in the top left in touch mode.\n\n**Fast Scrolling**- Items in the menu can be scrolled by letter by using PgUp/PgDn on the keyboard or the R1/L1 buttons on controller. In touch mode scrolling can be sped up by touching and dragging (while holding) either up or down.\n\n**For Xbox users please click the select button a couple times after launching a game to ensure the B button does not trigger a \"back\" action in the browser. (official name \"view button\" it is the two small squares) Exiting the controller mode and back to browser controls can be triggered by holding the start button for 3 seconds. (official name \"menu button\" the three lines)**\n"
+# init diagram
+init_diagram: |
+  "emulatorjs:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-emulatorjs-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    init-config -> init-emulatorjs-config
+    base -> init-envfile
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-services -> svc-backend
+    svc-backend -> legacy-services
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-ipfs
+    svc-ipfs -> legacy-services
+    init-services -> svc-nginx
+    svc-nginx -> legacy-services
+    init-services -> svc-profile
+    svc-profile -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine:3.19"
+  }
+  "emulatorjs:latest" <- Base Images
 # changelog
 changelogs:
   - {date: "28.01.24:", desc: "Skip IPFS config if DISABLE_IPFS is set as env variable."}
