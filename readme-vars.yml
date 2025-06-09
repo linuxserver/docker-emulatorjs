@@ -2,6 +2,13 @@
 
 # project information
 project_name: emulatorjs
+project_deprecation_status: true
+project_deprecation_message: |
+  Please consider these alternatives: 
+  https://github.com/gaseous-project/gaseous-server
+  https://github.com/rommapp/romm/
+  https://github.com/webrcade/webrcade
+
 project_url: "https://github.com/linuxserver/emulatorjs"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png"
 project_blurb: |
