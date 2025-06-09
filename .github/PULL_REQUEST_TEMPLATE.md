@@ -1,3 +1,12 @@
+# DEPRECATION NOTICE 
+This image is deprecated. We will not offer support for this image and it will not be updated.
+
+
+Please consider these alternatives: 
+https://github.com/gaseous-project/gaseous-server
+https://github.com/rommapp/romm/
+https://github.com/webrcade/webrcade
+
 <!--- Provide a general summary of your changes in the Title above -->
 
 [linuxserverurl]: https://linuxserver.io
